@@ -165,6 +165,85 @@ export async function ipAllowedForClient(ip: string): Promise<boolean> {
 }
 
 // ---------------------------------------------------------------------------
+// IP access requests — a client blocked at login can ask for their network to
+// be allowed; an admin approves/denies from the panel. No email is wired up,
+// so the requester finds out by trying to sign in again later.
+// ---------------------------------------------------------------------------
+
+export type IpRequestStatus = "pending" | "approved" | "denied"
+
+export interface IpRequest {
+  id: number
+  username: string
+  ip: string
+  user_agent: string | null
+  note: string | null
+  status: IpRequestStatus
+  requested_at: string
+  resolved_at: string | null
+  resolved_by: string | null
+}
+
+export async function createIpRequest(
+  username: string,
+  ip: string,
+  userAgent: string,
+  note: string | null,
+): Promise<void> {
+  const sql = getSql()
+  if (!sql) throw new Error("Database not configured")
+  const existing = (await withRetry(() => sql`
+    SELECT id FROM colourtex_ip_requests WHERE ip = ${ip} AND status = 'pending' LIMIT 1
+  `)) as { id: number }[]
+  if (existing.length > 0) return // already pending — don't pile up duplicates
+  await withRetry(() => sql`
+    INSERT INTO colourtex_ip_requests (username, ip, user_agent, note, status)
+    VALUES (${username}, ${ip}, ${userAgent}, ${note}, 'pending')
+  `)
+}
+
+export async function listIpRequests(status?: IpRequestStatus): Promise<IpRequest[]> {
+  const sql = getSql()
+  if (!sql) return []
+  if (status) {
+    return (await withRetry(() => sql`
+      SELECT id, username, ip, user_agent, note, status, requested_at, resolved_at, resolved_by
+      FROM colourtex_ip_requests WHERE status = ${status} ORDER BY requested_at DESC
+    `)) as IpRequest[]
+  }
+  return (await withRetry(() => sql`
+    SELECT id, username, ip, user_agent, note, status, requested_at, resolved_at, resolved_by
+    FROM colourtex_ip_requests ORDER BY requested_at DESC LIMIT 50
+  `)) as IpRequest[]
+}
+
+export async function resolveIpRequest(
+  id: number,
+  action: "approve" | "deny",
+  resolvedBy: string,
+): Promise<void> {
+  const sql = getSql()
+  if (!sql) throw new Error("Database not configured")
+  const rows = (await withRetry(() => sql`
+    SELECT ip, username FROM colourtex_ip_requests WHERE id = ${id}
+  `)) as { ip: string; username: string }[]
+  if (rows.length === 0) return
+  const { ip, username } = rows[0]
+  if (action === "approve") {
+    await withRetry(() => sql`
+      INSERT INTO colourtex_allowed_ips (ip, label)
+      VALUES (${ip}, ${`requested by ${username}`})
+      ON CONFLICT (ip) DO NOTHING
+    `)
+  }
+  await withRetry(() => sql`
+    UPDATE colourtex_ip_requests
+    SET status = ${action === "approve" ? "approved" : "denied"}, resolved_at = now(), resolved_by = ${resolvedBy}
+    WHERE id = ${id}
+  `)
+}
+
+// ---------------------------------------------------------------------------
 // Device registry — trust-on-first-use, capped at MAX_DEVICES, client role only
 // ---------------------------------------------------------------------------
 
