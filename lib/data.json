@@ -1,0 +1,5720 @@
+[
+ {
+  "sr": 3,
+  "awb": "020-05658262",
+  "date": "2025-02-22",
+  "destination": "CHARLOTTE",
+  "invoice": "PI/379037341",
+  "consignee": "COLOURTEX INC",
+  "pkgs": 2,
+  "chargeableWt": 683,
+  "legs": [
+   {
+    "carrier": "LH",
+    "flightNo": "767",
+    "date": "2025-02-24",
+    "to": "MUC",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "LH",
+    "flightNo": "428",
+    "date": "2025-02-25",
+    "to": "CLT",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-02-22",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 2,
+  "awb": "607-38212300",
+  "date": "2025-02-25",
+  "destination": "MANCHESTER",
+  "invoice": "PI/379037374",
+  "consignee": "MAGNA COLOURS",
+  "pkgs": 1,
+  "chargeableWt": 253,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "205",
+    "date": "2025-02-28",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "0077",
+    "date": "2025-03-01",
+    "to": "MAN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-02-25",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 4,
+  "awb": "618-35648631",
+  "date": "2025-02-25",
+  "destination": "JAKARTA",
+  "invoice": "PI/379037407",
+  "consignee": "PT WARNA TEKSTIL LESTARI",
+  "pkgs": 1,
+  "chargeableWt": 246,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "7973",
+    "date": "2025-02-26",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "0968",
+    "date": "2025-02-27",
+    "to": "CGK",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-02-25",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 5,
+  "awb": "618-35648852",
+  "date": "2025-02-28",
+  "destination": "JAKARTA",
+  "invoice": "PI/379037448",
+  "consignee": "PT COATS REJO INDONESIA",
+  "pkgs": 1,
+  "chargeableWt": 115,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "421",
+    "date": "2025-03-01",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "0968",
+    "date": "2025-03-02",
+    "to": "CGK",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-02-28",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 6,
+  "awb": "978-20472336",
+  "date": "2025-03-04",
+  "destination": "HO CHI MINH CITY",
+  "invoice": "PI/379037472",
+  "consignee": "GOLDEN DRAGON TRADING CO",
+  "pkgs": 1,
+  "chargeableWt": 347,
+  "legs": [
+   {
+    "carrier": "VJ",
+    "flightNo": "884",
+    "date": "2025-03-05",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-03-04",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 7,
+  "awb": "978-20475000",
+  "date": "2025-03-19",
+  "destination": "HO CHI MINH CITY",
+  "invoice": "PI/379037658",
+  "consignee": "CONG TY TNHH COLOUR FIRST VIETNAM",
+  "pkgs": 3,
+  "chargeableWt": 1743,
+  "legs": [
+   {
+    "carrier": "VJ",
+    "flightNo": "884",
+    "date": "2025-03-21",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-03-19",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 8,
+  "awb": "607-38212414",
+  "date": "2025-03-22",
+  "destination": "MANCHESTER",
+  "invoice": "PI/379037718",
+  "consignee": "MAGNA COLOURS",
+  "pkgs": 1,
+  "chargeableWt": 506,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "205",
+    "date": "2025-03-24",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "0077",
+    "date": "2025-03-26",
+    "to": "MAN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-03-22",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 9,
+  "awb": "020-05773025",
+  "date": "2025-03-22",
+  "destination": "MEXICO CITY",
+  "invoice": "PI/379037711",
+  "consignee": "VALFRACHEM S DE RL DE CV",
+  "pkgs": 1,
+  "chargeableWt": 140,
+  "legs": [
+   {
+    "carrier": "LH",
+    "flightNo": "767",
+    "date": "2025-03-24",
+    "to": "MUC",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "LH",
+    "flightNo": "520",
+    "date": "2025-03-26",
+    "to": "MEX",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-03-22",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 10,
+  "awb": "607-38722165",
+  "date": "2025-03-29",
+  "destination": "AMSTERDAM",
+  "invoice": "PI/379037807",
+  "consignee": "CHEMISCHE FABRIEK TRIADE",
+  "pkgs": 1,
+  "chargeableWt": 52,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "207",
+    "date": "2025-03-31",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "0041",
+    "date": "2025-04-01",
+    "to": "AMS",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-03-29",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 11,
+  "awb": "176-06710771",
+  "date": "2025-03-29",
+  "destination": "MANCHESTER",
+  "invoice": "PI/379037804/ 805/ 806",
+  "consignee": "MAGNA COLOURS",
+  "pkgs": 2,
+  "chargeableWt": 346,
+  "legs": [
+   {
+    "carrier": "EK",
+    "flightNo": "507",
+    "date": "2025-03-30",
+    "to": "DXB",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "0019",
+    "date": "2025-03-31",
+    "to": "MAN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-03-29",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 12,
+  "awb": "607-38722143",
+  "date": "2025-03-29",
+  "destination": "AMSTERDAM",
+  "invoice": "PI/379037784",
+  "consignee": "HOLLANDERS PRINTING SOLUTIONS",
+  "pkgs": 1,
+  "chargeableWt": 237,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "205",
+    "date": "2025-04-01",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "0041",
+    "date": "2025-04-03",
+    "to": "AMS",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-03-29",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 13,
+  "awb": "020-05853912",
+  "date": "2025-04-11",
+  "destination": "CHARLOTTE",
+  "invoice": "PI/379037869/ PI379037913",
+  "consignee": "FUTURE FORWARDING COMPANY",
+  "pkgs": 2,
+  "chargeableWt": 836,
+  "legs": [
+   {
+    "carrier": "LH",
+    "flightNo": "767",
+    "date": "2025-04-14",
+    "to": "MUC",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "LH",
+    "flightNo": "428",
+    "date": "2025-04-16",
+    "to": "CLT",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-04-11",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 14,
+  "awb": "618-43690076",
+  "date": "2025-04-11",
+  "destination": "INCHEON",
+  "invoice": "PI/379037890",
+  "consignee": "SEEONE CO. LTD",
+  "pkgs": 1,
+  "chargeableWt": 27,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "423",
+    "date": "2025-04-12",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "0600",
+    "date": "2025-04-14",
+    "to": "ICN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-04-11",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 15,
+  "awb": "978-20514620",
+  "date": "2025-04-19",
+  "destination": "HO CHI MINH CITY",
+  "invoice": "PI/379038039",
+  "consignee": "CONG TY TNHH COLOUR FIRST VIETNAM",
+  "pkgs": 1,
+  "chargeableWt": 553,
+  "legs": [
+   {
+    "carrier": "VJ",
+    "flightNo": "884",
+    "date": "2025-04-21",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-04-19",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 16,
+  "awb": "176-06760305",
+  "date": "2025-04-21",
+  "destination": "MEXICO CITY",
+  "invoice": "PI/379038015/16/17",
+  "consignee": "VALFRACHEM S DE RL DE CV",
+  "pkgs": 2,
+  "chargeableWt": 457,
+  "legs": [
+   {
+    "carrier": "EK",
+    "flightNo": "507",
+    "date": "2025-04-22",
+    "to": "DXB",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "255",
+    "date": "2025-04-24",
+    "to": "MEX",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-04-21",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 17,
+  "awb": "607-39122112",
+  "date": "2025-04-28",
+  "destination": "MILAN MALPENSA",
+  "invoice": "PI/379038096",
+  "consignee": "ZAITEX SPA",
+  "pkgs": 3,
+  "chargeableWt": 1663,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "987",
+    "date": "2025-04-30",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "0079",
+    "date": "2025-05-02",
+    "to": "MXP",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-04-28",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 18,
+  "awb": "607-39122123",
+  "date": "2025-04-28",
+  "destination": "MILAN MALPENSA",
+  "invoice": "PI/379038097",
+  "consignee": "ZAITEX SPA",
+  "pkgs": 1,
+  "chargeableWt": 500,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "207",
+    "date": "2025-04-29",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "0079",
+    "date": "2025-05-02",
+    "to": "MXP",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-04-28",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 19,
+  "awb": "618-43690533",
+  "date": "2025-04-28",
+  "destination": "INCHEON",
+  "invoice": "PI/379038085",
+  "consignee": "SEEONE CO. LTD",
+  "pkgs": 1,
+  "chargeableWt": 84,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "421",
+    "date": "2025-04-29",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "606",
+    "date": "2025-04-30",
+    "to": "ICN",
+    "status": "BKD"
+   }
+  ],
+  "clearanceDate": "2025-04-28",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 20,
+  "awb": "618-43690544",
+  "date": "2025-04-30",
+  "destination": "SINGAPORE",
+  "invoice": "PI/379038123",
+  "consignee": "ARCHROMA SINGAPORE PTE. LTD",
+  "pkgs": 1,
+  "chargeableWt": 141,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "421",
+    "date": "2025-05-01",
+    "to": "SIN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-04-30",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 21,
+  "awb": "607-39122145",
+  "date": "2025-04-30",
+  "destination": "ISTANBUL",
+  "invoice": "PI/379038114",
+  "consignee": "PROMAR ENDUSTRIYEL",
+  "pkgs": 1,
+  "chargeableWt": 250,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "205",
+    "date": "2025-05-01",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "541",
+    "date": "2025-05-03",
+    "to": "IST",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-04-30",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 22,
+  "awb": "618-43690485",
+  "date": "2025-05-05",
+  "destination": "NARITA",
+  "invoice": "PI/379038166",
+  "consignee": "MARKTEC CORPORATION",
+  "pkgs": 1,
+  "chargeableWt": 167,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "423",
+    "date": "2025-05-05",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "TR",
+    "flightNo": "808",
+    "date": "2025-05-07",
+    "to": "NRT",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-05-05",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 23,
+  "awb": "618-43690496",
+  "date": "2025-05-05",
+  "destination": "OSAKA",
+  "invoice": "PI/379038163",
+  "consignee": "NIKKA FINE TECHNO",
+  "pkgs": 1,
+  "chargeableWt": 551,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "423",
+    "date": "2025-05-05",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "620",
+    "date": "2025-05-08",
+    "to": "KIX",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-05-05",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 24,
+  "awb": "618-43690474",
+  "date": "2025-05-05",
+  "destination": "INCHEON",
+  "invoice": "PI/379038162",
+  "consignee": "ARCHROMA KOREA",
+  "pkgs": 1,
+  "chargeableWt": 461,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "423",
+    "date": "2025-05-05",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "608",
+    "date": "2025-05-08",
+    "to": "ICN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-05-05",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 25,
+  "awb": "176-06760482",
+  "date": "2025-05-17",
+  "destination": "MEXICO CITY",
+  "invoice": "PI/379038319",
+  "consignee": "VALFRACHEM S DE RL DE CV",
+  "pkgs": 2,
+  "chargeableWt": 45,
+  "legs": [
+   {
+    "carrier": "EK",
+    "flightNo": "9829",
+    "date": "2025-05-18",
+    "to": "DWC",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "7160D",
+    "date": "2025-05-19",
+    "to": "DXB",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "255",
+    "date": "2025-05-20",
+    "to": "MEX",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-05-17",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 26,
+  "awb": "607-39135703",
+  "date": "2025-05-19",
+  "destination": "MILAN MALPENSA",
+  "invoice": "PI/379038331",
+  "consignee": "VECOTEX SRL",
+  "pkgs": 1,
+  "chargeableWt": 664,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "207",
+    "date": "2025-05-23",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "0079",
+    "date": "2025-05-23",
+    "to": "MXP",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-05-19",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 27,
+  "awb": "607-39135670",
+  "date": "2025-05-19",
+  "destination": "MILAN MALPENSA",
+  "invoice": "PI/379038308",
+  "consignee": "ZAITEX SPA",
+  "pkgs": 1,
+  "chargeableWt": 554,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "205",
+    "date": "2025-05-23",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "0079",
+    "date": "2025-05-24",
+    "to": "MXP",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-05-19",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 28,
+  "awb": "978-20518562",
+  "date": "2025-05-19",
+  "destination": "HO CHI MINH CITY",
+  "invoice": "PI/379038334",
+  "consignee": "CLEANDYE VIETNAM CO., LTD",
+  "pkgs": 1,
+  "chargeableWt": 286,
+  "legs": [
+   {
+    "carrier": "VJ",
+    "flightNo": "884",
+    "date": "2025-05-21",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-05-19",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 29,
+  "awb": "160-76543972",
+  "date": "2025-05-22",
+  "destination": "INCHEON",
+  "invoice": "PI/379038397",
+  "consignee": "SEEONE CO. LTD",
+  "pkgs": 1,
+  "chargeableWt": 140,
+  "legs": [
+   {
+    "carrier": "CX",
+    "flightNo": "660",
+    "date": "2025-05-26",
+    "to": "HKG",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "CX",
+    "flightNo": "416",
+    "date": "2025-05-26",
+    "to": "ICN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-05-22",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 30,
+  "awb": "603-76139383",
+  "date": "2025-05-26",
+  "destination": "COLOMBO",
+  "invoice": "PI/379038445",
+  "consignee": "BIOTEX CHEM LANKA",
+  "pkgs": 1,
+  "chargeableWt": 100,
+  "legs": [
+   {
+    "carrier": "UL",
+    "flightNo": "142",
+    "date": "2025-05-29",
+    "to": "CMB",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-05-26",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 31,
+  "awb": "607-39135740",
+  "date": "2025-05-27",
+  "destination": "MILAN MALPENSA",
+  "invoice": "PI/379038456/457",
+  "consignee": "KEM COLOUR",
+  "pkgs": 1,
+  "chargeableWt": 543,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "205",
+    "date": "2025-05-28",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "0079",
+    "date": "2025-05-30",
+    "to": "MXP",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-05-27",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 32,
+  "awb": "176-06760353",
+  "date": "2025-05-27",
+  "destination": "MEXICO CITY",
+  "invoice": "PI/379038418",
+  "consignee": "VALFRACHEM S DE RL DE CV",
+  "pkgs": 1,
+  "chargeableWt": 118,
+  "legs": [
+   {
+    "carrier": "EK",
+    "flightNo": "503",
+    "date": "2025-05-28",
+    "to": "DXB",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "255",
+    "date": "2025-05-31",
+    "to": "MEX",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-05-27",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 33,
+  "awb": "014-35401866",
+  "date": "2025-06-02",
+  "destination": "LIMA",
+  "invoice": "PI/379038521",
+  "consignee": "COLTEX PERU",
+  "pkgs": 3,
+  "chargeableWt": 1582,
+  "legs": [
+   {
+    "carrier": "EK",
+    "flightNo": "501",
+    "date": "2025-06-03",
+    "to": "DXB",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "193",
+    "date": "2025-06-04",
+    "to": "LIS",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "AC",
+    "flightNo": "811",
+    "date": "2025-06-05",
+    "to": "YYZ",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "AC",
+    "flightNo": "7252",
+    "date": "2025-06-07",
+    "to": "LIM",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-06-02",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 34,
+  "awb": "978-20544554",
+  "date": "2025-06-02",
+  "destination": "HO CHI MINH CITY",
+  "invoice": "PI/379038564",
+  "consignee": "SAMIL VINA CO. LTD",
+  "pkgs": 1,
+  "chargeableWt": 300,
+  "legs": [
+   {
+    "carrier": "VJ",
+    "flightNo": "884",
+    "date": "2025-06-04",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-06-02",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 35,
+  "awb": "250-51299511",
+  "date": "2025-06-02",
+  "destination": "MINSK",
+  "invoice": "PI/379038547",
+  "consignee": "KARIO LLC",
+  "pkgs": 1,
+  "chargeableWt": 22,
+  "legs": [
+   {
+    "carrier": "HY",
+    "flightNo": "428",
+    "date": "2025-06-03",
+    "to": "TAS",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "HY",
+    "flightNo": "709",
+    "date": "2025-06-05",
+    "to": "MSQ",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-06-02",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 36,
+  "awb": "618-43690463",
+  "date": "2025-06-07",
+  "destination": "SHANGHAI",
+  "invoice": "PI/379038622",
+  "consignee": "ZHEJIANG FUMING CHEMICAL CO. LTD",
+  "pkgs": 1,
+  "chargeableWt": 121,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "421",
+    "date": "2025-06-10",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "836",
+    "date": "2025-06-11",
+    "to": "PVG",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-06-07",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 37,
+  "awb": "607-39479521",
+  "date": "2025-06-09",
+  "destination": "MANCHESTER",
+  "invoice": "PI/379038629 / 630",
+  "consignee": "MAGNA COLOURS",
+  "pkgs": 1,
+  "chargeableWt": 500,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "207",
+    "date": "2025-06-11",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "0077",
+    "date": "2025-06-12",
+    "to": "MAN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-06-09",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 38,
+  "awb": "978-20545173",
+  "date": "2025-06-09",
+  "destination": "HO CHI MINH CITY",
+  "invoice": "PI/379038641",
+  "consignee": "GOLDEN DRAGON TRADING CO",
+  "pkgs": 1,
+  "chargeableWt": 558,
+  "legs": [
+   {
+    "carrier": "VJ",
+    "flightNo": "884",
+    "date": "2025-06-11",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-06-09",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 39,
+  "awb": "978-20545162",
+  "date": "2025-06-09",
+  "destination": "HO CHI MINH CITY",
+  "invoice": "PI/379038651",
+  "consignee": "CONG TY TNHH COLOUR FIRST VIETNAM",
+  "pkgs": 1,
+  "chargeableWt": 333,
+  "legs": [
+   {
+    "carrier": "VJ",
+    "flightNo": "884",
+    "date": "2025-06-11",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-06-09",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 40,
+  "awb": "020-06090674",
+  "date": "2025-06-09",
+  "destination": "BOGOTA",
+  "invoice": "PI/379038623",
+  "consignee": "CECOLOR S.A.S",
+  "pkgs": 1,
+  "chargeableWt": 116,
+  "legs": [
+   {
+    "carrier": "LH",
+    "flightNo": "757",
+    "date": "2025-06-10",
+    "to": "FRA",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "LH",
+    "flightNo": "542",
+    "date": "2025-06-11",
+    "to": "BOG",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-06-09",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 41,
+  "awb": "618-43690356",
+  "date": "2025-06-12",
+  "destination": "TAIPEI",
+  "invoice": "PI/379038685",
+  "consignee": "JEAN WAN INTERNATIONAL",
+  "pkgs": 1,
+  "chargeableWt": 455,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "421",
+    "date": "2025-06-13",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "TR",
+    "flightNo": "896",
+    "date": "2025-06-15",
+    "to": "TPE",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-06-12",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 42,
+  "awb": "020-06121776",
+  "date": "2025-06-16",
+  "destination": "BOGOTA",
+  "invoice": "PI/379038730",
+  "consignee": "CECOLOR S.A.S",
+  "pkgs": 1,
+  "chargeableWt": 116,
+  "legs": [
+   {
+    "carrier": "LH",
+    "flightNo": "8023",
+    "date": "2025-06-18",
+    "to": "FRA",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "LH",
+    "flightNo": "542",
+    "date": "2025-06-20",
+    "to": "BOG",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-06-16",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 43,
+  "awb": "607-39479543",
+  "date": "2025-06-17",
+  "destination": "MILAN MALPENSA",
+  "invoice": "PI/379038738",
+  "consignee": "ISOCARBO S.R.L",
+  "pkgs": 1,
+  "chargeableWt": 118,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "205",
+    "date": "2025-06-18",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "0079",
+    "date": "2025-06-20",
+    "to": "MXP",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-06-17",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 44,
+  "awb": "738-02690796",
+  "date": "2025-06-30",
+  "destination": "HO CHI MINH CITY",
+  "invoice": "PI/379038889",
+  "consignee": "CLEANDYE VIETNAM CO., LTD",
+  "pkgs": 2,
+  "chargeableWt": 500,
+  "legs": [
+   {
+    "carrier": "VN",
+    "flightNo": "972",
+    "date": "2025-07-01",
+    "to": "HAN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "VN",
+    "flightNo": "213",
+    "date": "2025-07-02",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-06-30",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 45,
+  "awb": "618-43690360",
+  "date": "2025-06-30",
+  "destination": "INCHEON",
+  "invoice": "PI/379038879",
+  "consignee": "SEEONE CO. LTD",
+  "pkgs": 2,
+  "chargeableWt": 49,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "421",
+    "date": "2025-07-01",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "612",
+    "date": "2025-07-04",
+    "to": "ICN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-06-30",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 46,
+  "awb": "738-02690925",
+  "date": "2025-07-01",
+  "destination": "HO CHI MINH CITY",
+  "invoice": "PI/379038893",
+  "consignee": "GOLDEN DRAGON TRADING CO",
+  "pkgs": 1,
+  "chargeableWt": 745,
+  "legs": [
+   {
+    "carrier": "VN",
+    "flightNo": "972",
+    "date": "2025-07-05",
+    "to": "HAN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "VN",
+    "flightNo": "259",
+    "date": "2025-07-06",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-07-01",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 47,
+  "awb": "607-39983764",
+  "date": "2025-07-04",
+  "destination": "MILAN MALPENSA",
+  "invoice": "PI/379038917",
+  "consignee": "ZAITEX SPA",
+  "pkgs": 1,
+  "chargeableWt": 503,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "207",
+    "date": "2025-07-04",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "0081",
+    "date": "2025-07-08",
+    "to": "MXP",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-07-04",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 48,
+  "awb": "618-43690404",
+  "date": "2025-07-05",
+  "destination": "HO CHI MINH CITY",
+  "invoice": "PI/379038943/ 942",
+  "consignee": "CONG TY TNHH COLOUR FIRST VIETNAM",
+  "pkgs": 1,
+  "chargeableWt": 123,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "421",
+    "date": "2025-07-07",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "184",
+    "date": "2025-07-08",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-07-05",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 49,
+  "awb": "176-09244561",
+  "date": "2025-07-07",
+  "destination": "MEXICO CITY",
+  "invoice": "PI/379038964",
+  "consignee": "VALFRACHEM S DE RL DE CV",
+  "pkgs": 1,
+  "chargeableWt": 117,
+  "legs": [
+   {
+    "carrier": "EK",
+    "flightNo": "503",
+    "date": "2025-07-08",
+    "to": "DXB",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "255",
+    "date": "2025-07-10",
+    "to": "MEX",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-07-07",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 50,
+  "awb": "057-54806474",
+  "date": "2025-07-07",
+  "destination": "DETROIT",
+  "invoice": "PI/379038966",
+  "consignee": "CHROMATECH INC",
+  "pkgs": 1,
+  "chargeableWt": 565,
+  "legs": [
+   {
+    "carrier": "AF",
+    "flightNo": "217",
+    "date": "2025-07-08",
+    "to": "CDG",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "AF",
+    "flightNo": "378",
+    "date": "2025-07-09",
+    "to": "DTW",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-07-07",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 51,
+  "awb": "160-76544086",
+  "date": "2025-07-07",
+  "destination": "SHANGHAI",
+  "invoice": "PI/379038967",
+  "consignee": "ARCHROMA CHEMICALS",
+  "pkgs": 1,
+  "chargeableWt": 259,
+  "legs": [
+   {
+    "carrier": "CX",
+    "flightNo": "660",
+    "date": "2025-07-08",
+    "to": "HKG",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "CX",
+    "flightNo": "3238",
+    "date": "2025-07-08",
+    "to": "PVG",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-07-07",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 52,
+  "awb": "618-43690290",
+  "date": "2025-07-07",
+  "destination": "HO CHI MINH CITY",
+  "invoice": "PI/379038965",
+  "consignee": "CONG TY TNHH COLOUR FIRST VIETNAM",
+  "pkgs": 1,
+  "chargeableWt": 176,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "421",
+    "date": "2025-07-09",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "184",
+    "date": "2025-07-10",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-07-07",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 53,
+  "awb": "618-43690301",
+  "date": "2025-07-10",
+  "destination": "SINGAPORE",
+  "invoice": "PI/379038988",
+  "consignee": "ARCHROMA SINGAPORE PTE. LTD",
+  "pkgs": 1,
+  "chargeableWt": 480,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "421",
+    "date": "2025-07-11",
+    "to": "SIN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-07-10",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 54,
+  "awb": "205-61485152",
+  "date": "2025-07-14",
+  "destination": "NARITA",
+  "invoice": "PI/379039009",
+  "consignee": "ARCHROMA JAPAN K.K",
+  "pkgs": 1,
+  "chargeableWt": 111,
+  "legs": [
+   {
+    "carrier": "NH",
+    "flightNo": "830",
+    "date": "2025-07-15",
+    "to": "NRT",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-07-14",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 55,
+  "awb": "176-09244432",
+  "date": "2025-07-15",
+  "destination": "SAO PAULO",
+  "invoice": "PI/379039038",
+  "consignee": "SPICE INDUSTRIA",
+  "pkgs": 1,
+  "chargeableWt": 213,
+  "legs": [
+   {
+    "carrier": "EK",
+    "flightNo": "507",
+    "date": "2025-07-17",
+    "to": "DXB",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "7297D",
+    "date": "2025-07-22",
+    "to": "DWC",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "9913",
+    "date": "2025-07-24",
+    "to": "GRU",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-07-15",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 56,
+  "awb": "020-06246844",
+  "date": "2025-07-17",
+  "destination": "CHARLOTTE",
+  "invoice": "PI/379039025",
+  "consignee": "FUTURE FORWARDING COMPANY",
+  "pkgs": 1,
+  "chargeableWt": 450,
+  "legs": [
+   {
+    "carrier": "LH",
+    "flightNo": "8361",
+    "date": "2025-07-18",
+    "to": "FRA",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "LH",
+    "flightNo": "7260S",
+    "date": "2025-07-19",
+    "to": "MUC",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "LH",
+    "flightNo": "428",
+    "date": "2025-07-21",
+    "to": "CLT",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-07-17",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 57,
+  "awb": "607-39983893",
+  "date": "2025-07-22",
+  "destination": "MILAN MALPENSA",
+  "invoice": "PI/379039122",
+  "consignee": "ZAITEX SPA",
+  "pkgs": 2,
+  "chargeableWt": 1114,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "207",
+    "date": "2025-07-23",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "0079",
+    "date": "2025-07-25",
+    "to": "MXP",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-07-22",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 58,
+  "awb": "618-43690323",
+  "date": "2025-07-26",
+  "destination": "TAIPEI",
+  "invoice": "PI/379039193",
+  "consignee": "JEAN WAN INTERNATIONAL",
+  "pkgs": 1,
+  "chargeableWt": 334,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "421",
+    "date": "2025-07-27",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "TR",
+    "flightNo": "876",
+    "date": "2025-07-29",
+    "to": "TPE",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-07-26",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 59,
+  "awb": "250-51332374",
+  "date": "2025-07-28",
+  "destination": "MINSK",
+  "invoice": "PI/379039183",
+  "consignee": "PRIVATE ENTERPRISE ARKOLI",
+  "pkgs": 2,
+  "chargeableWt": 115,
+  "legs": [
+   {
+    "carrier": "6E",
+    "flightNo": "6704",
+    "date": "2025-07-29",
+    "to": "DEL",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "HY",
+    "flightNo": "424",
+    "date": "2025-07-31",
+    "to": "TAS",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "HY",
+    "flightNo": "709",
+    "date": "2025-08-02",
+    "to": "MSQ",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-07-28",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 60,
+  "awb": "607-50407711",
+  "date": "2025-07-29",
+  "destination": "MILAN MALPENSA",
+  "invoice": "PI/379039227",
+  "consignee": "PROCHIMICA NOVARSEE SPA",
+  "pkgs": 1,
+  "chargeableWt": 500,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "205",
+    "date": "2025-07-30",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "0079",
+    "date": "2025-07-31",
+    "to": "MXP",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-07-29",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 61,
+  "awb": "020-06353524",
+  "date": "2025-08-08",
+  "destination": "BOGOTA",
+  "invoice": "PI/379039333",
+  "consignee": "ARCHROMA COLUMBIA",
+  "pkgs": 1,
+  "chargeableWt": 181,
+  "legs": [
+   {
+    "carrier": "LH",
+    "flightNo": "8023",
+    "date": "2025-08-10",
+    "to": "FRA",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "LH",
+    "flightNo": "542",
+    "date": "2025-08-11",
+    "to": "BOG",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-08-08",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 62,
+  "awb": "618-43690231",
+  "date": "2025-08-08",
+  "destination": "INCHEON",
+  "invoice": "PI/379039349",
+  "consignee": "SEEONE CO. LTD",
+  "pkgs": 1,
+  "chargeableWt": 332,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "421",
+    "date": "2025-08-09",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "608",
+    "date": "2025-08-11",
+    "to": "ICN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-08-08",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 63,
+  "awb": "176-14423640",
+  "date": "2025-08-16",
+  "destination": "SAO PAULO",
+  "invoice": "PI/379039400",
+  "consignee": "SPICE INDUSTRIA",
+  "pkgs": 1,
+  "chargeableWt": 327,
+  "legs": [
+   {
+    "carrier": "EK",
+    "flightNo": "505",
+    "date": "2025-08-17",
+    "to": "DXB",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "261",
+    "date": "2025-08-19",
+    "to": "GRU",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-08-16",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 64,
+  "awb": "074-69501154",
+  "date": "2025-08-20",
+  "destination": "BOGOTA",
+  "invoice": "PI/379039424",
+  "consignee": "CECOLOUR SAS",
+  "pkgs": 1,
+  "chargeableWt": 279,
+  "legs": [
+   {
+    "carrier": "AF",
+    "flightNo": "217",
+    "date": "2025-08-22",
+    "to": "CDG",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "AF",
+    "flightNo": "436",
+    "date": "2025-08-23",
+    "to": "BOG",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-08-20",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 65,
+  "awb": "932-76257171",
+  "date": "2025-08-20",
+  "destination": "LIMA",
+  "invoice": "PI/379039421",
+  "consignee": "COLOURTEX PERU SAC",
+  "pkgs": 3,
+  "chargeableWt": 1888,
+  "legs": [
+   {
+    "carrier": "VS",
+    "flightNo": "0359",
+    "date": "2025-08-22",
+    "to": "LHR",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "VS",
+    "flightNo": "0103",
+    "date": "2025-08-23",
+    "to": "ATL",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "DL",
+    "flightNo": "151",
+    "date": "2025-08-29",
+    "to": "LIM",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-08-20",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 66,
+  "awb": "618-43690275",
+  "date": "2025-08-22",
+  "destination": "HO CHI MINH CITY",
+  "invoice": "PI/379039471",
+  "consignee": "SAMIL VINA CO. LTD",
+  "pkgs": 1,
+  "chargeableWt": 234.5,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "421",
+    "date": "2025-08-23",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "186",
+    "date": "2025-08-24",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-08-22",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 67,
+  "awb": "232-12929803",
+  "date": "2025-08-22",
+  "destination": "TAIPEI",
+  "invoice": "PI/379039487",
+  "consignee": "RIITS TRADING CO. LTD",
+  "pkgs": 1,
+  "chargeableWt": 567.5,
+  "legs": [
+   {
+    "carrier": "MH",
+    "flightNo": "195",
+    "date": "2025-08-23",
+    "to": "KUL",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "MH",
+    "flightNo": "366",
+    "date": "2025-08-26",
+    "to": "TPE",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-08-22",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 68,
+  "awb": "729-92462661",
+  "date": "2025-08-22",
+  "destination": "MANAGUA",
+  "invoice": "PI/379039465",
+  "consignee": "WINNITEX NICARAGUA TEXTILE",
+  "pkgs": 1,
+  "chargeableWt": 100,
+  "legs": [
+   {
+    "carrier": "VS",
+    "flightNo": "359",
+    "date": "2025-08-25",
+    "to": "LHR",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "AV",
+    "flightNo": "121",
+    "date": "2025-08-26",
+    "to": "BOG",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "AV",
+    "flightNo": "696",
+    "date": "2025-08-31",
+    "to": "SJO",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "AV",
+    "flightNo": "602",
+    "date": "2025-09-01",
+    "to": "MGA",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-08-22",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 69,
+  "awb": "235-88072036",
+  "date": "2025-08-22",
+  "destination": "ISTANBUL",
+  "invoice": "PI/379039498",
+  "consignee": "PROMAR ENDUSTRIYEL",
+  "pkgs": 1,
+  "chargeableWt": 500,
+  "legs": [
+   {
+    "carrier": "TK",
+    "flightNo": "721",
+    "date": "2025-08-23",
+    "to": "IST",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-08-22",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 70,
+  "awb": "603-76180775",
+  "date": "2025-08-22",
+  "destination": "COLOMBO",
+  "invoice": "PI/379039507",
+  "consignee": "MAS FABRICS",
+  "pkgs": 2,
+  "chargeableWt": 54,
+  "legs": [
+   {
+    "carrier": "UL",
+    "flightNo": "142",
+    "date": "2025-08-23",
+    "to": "CMB",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-08-22",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 71,
+  "awb": "618-43690286",
+  "date": "2025-08-22",
+  "destination": "INCHEON",
+  "invoice": "PI/379039493",
+  "consignee": "SEEONE CO. LTD",
+  "pkgs": 1,
+  "chargeableWt": 224,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "421",
+    "date": "2025-08-23",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "608",
+    "date": "2025-08-29",
+    "to": "ICN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-08-22",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 72,
+  "awb": "232-12920600",
+  "date": "2025-08-23",
+  "destination": "TAIPEI",
+  "invoice": "PI/379039529",
+  "consignee": "JEAN WAN INTERNATIONAL",
+  "pkgs": 1,
+  "chargeableWt": 504,
+  "legs": [
+   {
+    "carrier": "MH",
+    "flightNo": "6245",
+    "date": "2025-08-24",
+    "to": "KUL",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "MH",
+    "flightNo": "366",
+    "date": "2025-08-27",
+    "to": "TPE",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-08-23",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 73,
+  "awb": "618-43690172",
+  "date": "2025-08-28",
+  "destination": "JAKARTA",
+  "invoice": "PI/379039552/ 553",
+  "consignee": "PT WARNA TEKSTIL LESTARI",
+  "pkgs": 2,
+  "chargeableWt": 1493,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "421",
+    "date": "2025-08-29",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "950",
+    "date": "2025-08-31",
+    "to": "CGK",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-08-28",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 74,
+  "awb": "176-14423463",
+  "date": "2025-09-11",
+  "destination": "CAPE TOWN",
+  "invoice": "PI/379039711",
+  "consignee": "TST AGENCIES",
+  "pkgs": 1,
+  "chargeableWt": 183,
+  "legs": [
+   {
+    "carrier": "EK",
+    "flightNo": "505",
+    "date": "2025-09-12",
+    "to": "DXB",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "770",
+    "date": "2025-09-13",
+    "to": "CPT",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-09-11",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 75,
+  "awb": "074-69501202",
+  "date": "2025-09-15",
+  "destination": "MEXICO CITY",
+  "invoice": "PI/379039715",
+  "consignee": "VALFRACHEM S DE RL DE CV",
+  "pkgs": 2,
+  "chargeableWt": 1163,
+  "legs": [
+   {
+    "carrier": "AF",
+    "flightNo": "6727",
+    "date": "2025-09-17",
+    "to": "CDG",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "AF",
+    "flightNo": "0174",
+    "date": "2025-09-21",
+    "to": "MEX",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-09-15",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 76,
+  "awb": "618-43690205",
+  "date": "2025-09-15",
+  "destination": "JAKARTA",
+  "invoice": "PI/379039730/ 731",
+  "consignee": "PT WARNA TEKSTIL LESTARI",
+  "pkgs": 3,
+  "chargeableWt": 1991,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "421",
+    "date": "2025-09-16",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "960",
+    "date": "2025-09-18",
+    "to": "CGK",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-09-15",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 77,
+  "awb": "618-43690216",
+  "date": "2025-09-15",
+  "destination": "INCHEON",
+  "invoice": "PI/379039739",
+  "consignee": "SEEONE CO. LTD",
+  "pkgs": 1,
+  "chargeableWt": 118,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "421",
+    "date": "2025-09-16",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "TR",
+    "flightNo": "896",
+    "date": "2025-09-18",
+    "to": "ICN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-09-15",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 78,
+  "awb": "176-14488810",
+  "date": "2025-09-16",
+  "destination": "MEXICO CITY",
+  "invoice": "PI/379039714",
+  "consignee": "VALFRACHEM S DE RL DE CV",
+  "pkgs": 1,
+  "chargeableWt": 276,
+  "legs": [
+   {
+    "carrier": "EK",
+    "flightNo": "507",
+    "date": "2025-09-17",
+    "to": "DXB",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "255",
+    "date": "2025-09-20",
+    "to": "MEX",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-09-16",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 79,
+  "awb": "205-61485196",
+  "date": "2025-09-17",
+  "destination": "TIANJIN",
+  "invoice": "PI/379039745",
+  "consignee": "ARCHROMA TIANJIN",
+  "pkgs": 1,
+  "chargeableWt": 654,
+  "legs": [
+   {
+    "carrier": "NH",
+    "flightNo": "830",
+    "date": "2025-07-19",
+    "to": "NRT",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "NH",
+    "flightNo": "8527",
+    "date": "2025-09-21",
+    "to": "PEK",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "NH",
+    "flightNo": "8280",
+    "date": "2025-09-22",
+    "to": "TSN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-09-17",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 80,
+  "awb": "724-79021854",
+  "date": "2025-09-18",
+  "destination": "AMSTERDAM",
+  "invoice": "PI/379039768",
+  "consignee": "HOLLANDERS PRINTING SOLUTIONS",
+  "pkgs": 1,
+  "chargeableWt": 120,
+  "legs": [
+   {
+    "carrier": "LX",
+    "flightNo": "155",
+    "date": "2025-09-20",
+    "to": "ZRH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "LX",
+    "flightNo": "724",
+    "date": "2025-09-23",
+    "to": "AMS",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-09-18",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 81,
+  "awb": "618-43690146",
+  "date": "2025-09-20",
+  "destination": "NARITA",
+  "invoice": "PI/379039805",
+  "consignee": "MARKTEC CORPORATION",
+  "pkgs": 1,
+  "chargeableWt": 167,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "421",
+    "date": "2025-09-22",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "638",
+    "date": "2025-09-23",
+    "to": "NRT",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-09-20",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 82,
+  "awb": "176-14488961",
+  "date": "2025-09-23",
+  "destination": "MILAN MALPENSA",
+  "invoice": "PI/379039827",
+  "consignee": "KEM COLOUR",
+  "pkgs": 1,
+  "chargeableWt": 119,
+  "legs": [
+   {
+    "carrier": "EK",
+    "flightNo": "0507",
+    "date": "2025-09-26",
+    "to": "DXB",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "0205",
+    "date": "2025-09-28",
+    "to": "MXP",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-09-23",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 83,
+  "awb": "738-02691194",
+  "date": "2025-09-27",
+  "destination": "HO CHI MINH CITY",
+  "invoice": "PI/379039902",
+  "consignee": "CONG TY TNHH COLOUR FIRST VIETNAM",
+  "pkgs": 1,
+  "chargeableWt": 402,
+  "legs": [
+   {
+    "carrier": "VN",
+    "flightNo": "978",
+    "date": "2025-09-29",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-09-27",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 84,
+  "awb": "603-76212334",
+  "date": "2025-09-27",
+  "destination": "COLOMBO",
+  "invoice": "PI/379039901",
+  "consignee": "MAS ACTIVE",
+  "pkgs": 3,
+  "chargeableWt": 66,
+  "legs": [
+   {
+    "carrier": "UL",
+    "flightNo": "142",
+    "date": "2025-10-01",
+    "to": "CMB",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-09-27",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 85,
+  "awb": "607-50934995",
+  "date": "2025-09-29",
+  "destination": "MILAN MALPENSA",
+  "invoice": "PI/379039903",
+  "consignee": "ZAITEX SPA",
+  "pkgs": 2,
+  "chargeableWt": 980,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "207",
+    "date": "2025-10-01",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "0081",
+    "date": "2025-10-02",
+    "to": "MXP",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-09-29",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 86,
+  "awb": "607-50935006",
+  "date": "2025-10-01",
+  "destination": "MANCHESTER",
+  "invoice": "PI/379039931",
+  "consignee": "MAGNA COLOURS",
+  "pkgs": 1,
+  "chargeableWt": 206,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "207",
+    "date": "2025-10-02",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "0075",
+    "date": "2025-10-05",
+    "to": "MAN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-10-01",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 87,
+  "awb": "618-43690150",
+  "date": "2025-10-03",
+  "destination": "JAKARTA",
+  "invoice": "PI/379039943",
+  "consignee": "PT DEWASUTRATEX",
+  "pkgs": 1,
+  "chargeableWt": 349,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "7951",
+    "date": "2025-10-04",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "968",
+    "date": "2025-10-05",
+    "to": "CGK",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-10-03",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 88,
+  "awb": "160-76544226",
+  "date": "2025-10-04",
+  "destination": "SHANGHAI",
+  "invoice": "PI/379039980",
+  "consignee": "YORKSHINE ZHEJIANG DYES & CHEMICALS",
+  "pkgs": 1,
+  "chargeableWt": 610,
+  "legs": [
+   {
+    "carrier": "CX",
+    "flightNo": "660",
+    "date": "2025-10-05",
+    "to": "HKG",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "CX",
+    "flightNo": "378",
+    "date": "2025-10-06",
+    "to": "PVG",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-10-04",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 89,
+  "awb": "160-76544215",
+  "date": "2025-10-04",
+  "destination": "SHANGHAI",
+  "invoice": "PI/379039968",
+  "consignee": "ZHEJIANG FUMING CHEMICAL CO. LTD",
+  "pkgs": 1,
+  "chargeableWt": 349,
+  "legs": [
+   {
+    "carrier": "CX",
+    "flightNo": "660",
+    "date": "2025-10-05",
+    "to": "HKG",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "CX",
+    "flightNo": "368",
+    "date": "2025-10-06",
+    "to": "PVG",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-10-04",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 90,
+  "awb": "603-76212290",
+  "date": "2025-10-08",
+  "destination": "COLOMBO",
+  "invoice": "PI/379040015",
+  "consignee": "MAS ACTIVE PVT LTD",
+  "pkgs": 3,
+  "chargeableWt": 81,
+  "legs": [
+   {
+    "carrier": "UL",
+    "flightNo": "144",
+    "date": "2025-10-09",
+    "to": "CMB",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-10-08",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 91,
+  "awb": "080-38099526",
+  "date": "2025-10-10",
+  "destination": "WARSAW",
+  "invoice": "PI/379040043",
+  "consignee": "ROHA POLSKA SP. Z.O.O",
+  "pkgs": 1,
+  "chargeableWt": 504,
+  "legs": [
+   {
+    "carrier": "LO",
+    "flightNo": "076",
+    "date": "2025-10-12",
+    "to": "WAW",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-10-10",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 92,
+  "awb": "618-43752752",
+  "date": "2025-10-10",
+  "destination": "INCHEON",
+  "invoice": "PI/379039924",
+  "consignee": "SEEONE CO. LTD",
+  "pkgs": 1,
+  "chargeableWt": 118,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "423",
+    "date": "2025-10-12",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "0612",
+    "date": "2025-10-14",
+    "to": "ICN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-10-10",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 93,
+  "awb": "217-04938382",
+  "date": "2025-10-10",
+  "destination": "BANGKOK",
+  "invoice": "PI/379040030",
+  "consignee": "PHISIT INTERGROUP CO.,",
+  "pkgs": 1,
+  "chargeableWt": 743,
+  "legs": [
+   {
+    "carrier": "TG",
+    "flightNo": "0318",
+    "date": "2025-10-13",
+    "to": "BKK",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-10-10",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 94,
+  "awb": "176-14489145",
+  "date": "2025-10-14",
+  "destination": "MILAN MALPENSA",
+  "invoice": "PI/379040092",
+  "consignee": "KEM COLOUR",
+  "pkgs": 1,
+  "chargeableWt": 119,
+  "legs": [
+   {
+    "carrier": "EK",
+    "flightNo": "0507",
+    "date": "2025-10-15",
+    "to": "DXB",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "0091",
+    "date": "2025-10-16",
+    "to": "MXP",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-10-14",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 95,
+  "awb": "618-43752800",
+  "date": "2025-10-14",
+  "destination": "INCHEON",
+  "invoice": "PI/379040095",
+  "consignee": "SEEONE CO. LTD",
+  "pkgs": 1,
+  "chargeableWt": 331,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "0421",
+    "date": "2025-10-16",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "0612",
+    "date": "2025-10-18",
+    "to": "ICN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-10-14",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 96,
+  "awb": "176-14489156",
+  "date": "2025-10-14",
+  "destination": "BRUSSELS",
+  "invoice": "PI/379040079",
+  "consignee": "ETS R. STIERNON",
+  "pkgs": 1,
+  "chargeableWt": 170,
+  "legs": [
+   {
+    "carrier": "EK",
+    "flightNo": "509",
+    "date": "2025-10-16",
+    "to": "DXB",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "0183",
+    "date": "2025-10-18",
+    "to": "BRU",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-10-14",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 97,
+  "awb": "176-14489160",
+  "date": "2025-10-14",
+  "destination": "MEXICO CITY",
+  "invoice": "PI/379040098",
+  "consignee": "VALFRACHEM S DE RL DE CV",
+  "pkgs": 1,
+  "chargeableWt": 174,
+  "legs": [
+   {
+    "carrier": "EK",
+    "flightNo": "503",
+    "date": "2025-10-15",
+    "to": "DXB",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "0255",
+    "date": "2025-10-17",
+    "to": "MEX",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-10-14",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 98,
+  "awb": "618-43752822",
+  "date": "2025-10-16",
+  "destination": "HO CHI MINH CITY",
+  "invoice": "PI/379040139",
+  "consignee": "CONG TY TNHH COLOUR FIRST VIETNAM",
+  "pkgs": 1,
+  "chargeableWt": 455,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "7951",
+    "date": "2025-10-18",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "0186",
+    "date": "2025-10-21",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-10-16",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 99,
+  "awb": "738-03122022",
+  "date": "2025-10-16",
+  "destination": "HO CHI MINH CITY",
+  "invoice": "PI/379040069",
+  "consignee": "CLEANDYE VIETNAM CO., LTD",
+  "pkgs": 3,
+  "chargeableWt": 623,
+  "legs": [
+   {
+    "carrier": "VN",
+    "flightNo": "972",
+    "date": "2025-10-16",
+    "to": "HAN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "VN",
+    "flightNo": "253",
+    "date": "2025-10-17",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-10-16",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 100,
+  "awb": "618-43752811",
+  "date": "2025-10-16",
+  "destination": "TAIPEI",
+  "invoice": "PI/379040140",
+  "consignee": "SUN WAN INTERNATIONAL CO., LTD",
+  "pkgs": 1,
+  "chargeableWt": 118,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "7951",
+    "date": "2025-10-18",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "0878",
+    "date": "2025-10-20",
+    "to": "TPE",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-10-16",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 101,
+  "awb": "607-51306150",
+  "date": "2025-10-27",
+  "destination": "MILAN MALPENSA",
+  "invoice": "PI/379040159",
+  "consignee": "KEM COLOUR",
+  "pkgs": 1,
+  "chargeableWt": 225,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "205",
+    "date": "2025-10-28",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "0079",
+    "date": "2025-10-29",
+    "to": "MXP",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-10-27",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 102,
+  "awb": "125-16321001",
+  "date": "2025-10-30",
+  "destination": "DETROIT",
+  "invoice": "PI/379040203/ 204",
+  "consignee": "CHROMATECH INC",
+  "pkgs": 7,
+  "chargeableWt": 3707,
+  "legs": [
+   {
+    "carrier": "BA",
+    "flightNo": "134",
+    "date": "2025-11-01",
+    "to": "LHR",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "BA",
+    "flightNo": "0067",
+    "date": "2025-11-06",
+    "to": "PHL",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "BA",
+    "flightNo": "3373",
+    "date": "2025-11-10",
+    "to": "DTW",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-10-30",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 103,
+  "awb": "618-43752785",
+  "date": "2025-10-30",
+  "destination": "INCHEON",
+  "invoice": "PI/379040218",
+  "consignee": "SEEONE CO. LTD",
+  "pkgs": 1,
+  "chargeableWt": 119,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "7951",
+    "date": "2025-11-01",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "606",
+    "date": "2025-11-03",
+    "to": "ICN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-10-30",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 104,
+  "awb": "176-16374470",
+  "date": "2025-11-01",
+  "destination": "MEXICO CITY",
+  "invoice": "PI/379040239",
+  "consignee": "VALFRACHEM S DE RL DE CV",
+  "pkgs": 1,
+  "chargeableWt": 397,
+  "legs": [
+   {
+    "carrier": "EK",
+    "flightNo": "507",
+    "date": "2025-11-02",
+    "to": "DXB",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "255",
+    "date": "2025-11-06",
+    "to": "MEX",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-11-01",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 105,
+  "awb": "618-43753220",
+  "date": "2025-11-03",
+  "destination": "TAIPEI",
+  "invoice": "PI/379040266",
+  "consignee": "JEAN WAN INTERNATIONAL",
+  "pkgs": 1,
+  "chargeableWt": 277,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "7973",
+    "date": "2025-11-05",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "TR",
+    "flightNo": "874",
+    "date": "2025-11-06",
+    "to": "TPW",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-11-03",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 106,
+  "awb": "618-43753216",
+  "date": "2025-11-03",
+  "destination": "INCHEON",
+  "invoice": "PI/379040269",
+  "consignee": "SEEONE CO. LTD",
+  "pkgs": 1,
+  "chargeableWt": 331,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "7973",
+    "date": "2025-11-05",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "608",
+    "date": "2025-11-06",
+    "to": "ICN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-11-03",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 107,
+  "awb": "607-51306194",
+  "date": "2025-11-06",
+  "destination": "AMSTERDAM",
+  "invoice": "PI/379040282",
+  "consignee": "HOLLANDERS PRINTING SOLUTIONS",
+  "pkgs": 1,
+  "chargeableWt": 141,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "207",
+    "date": "2025-11-07",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "915",
+    "date": "2025-11-10",
+    "to": "FRA",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "9500T",
+    "date": "2025-11-11",
+    "to": "AMS",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-11-06",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 108,
+  "awb": "603-76237626",
+  "date": "2025-11-06",
+  "destination": "COLOMBO",
+  "invoice": "PI/379040305",
+  "consignee": "BIOTEX CHEM LANKA",
+  "pkgs": 1,
+  "chargeableWt": 100,
+  "legs": [
+   {
+    "carrier": "UL",
+    "flightNo": "142",
+    "date": "2025-11-07",
+    "to": "CMB",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-11-06",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 109,
+  "awb": "603-76237630",
+  "date": "2025-11-06",
+  "destination": "COLOMBO",
+  "invoice": "PI/379040306",
+  "consignee": "MAS ACTIVE (PVT) LTD",
+  "pkgs": 1,
+  "chargeableWt": 125,
+  "legs": [
+   {
+    "carrier": "UL",
+    "flightNo": "142",
+    "date": "2025-11-07",
+    "to": "CMB",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-11-06",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 110,
+  "awb": "603-76237641",
+  "date": "2025-11-06",
+  "destination": "COLOMBO",
+  "invoice": "PI/379040304",
+  "consignee": "MAS FABRICS",
+  "pkgs": 1,
+  "chargeableWt": 107,
+  "legs": [
+   {
+    "carrier": "UL",
+    "flightNo": "142",
+    "date": "2025-11-07",
+    "to": "CMB",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-11-06",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 111,
+  "awb": "978-20595713",
+  "date": "2025-11-07",
+  "destination": "HO CHI MINH CITY",
+  "invoice": "PI/379040312",
+  "consignee": "GOLDEN DRAGON TRADING CO",
+  "pkgs": 1,
+  "chargeableWt": 278,
+  "legs": [
+   {
+    "carrier": "VJ",
+    "flightNo": "884",
+    "date": "2025-11-09",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-11-07",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 112,
+  "awb": "607-51306220",
+  "date": "2025-11-07",
+  "destination": "MILAN MALPENSA",
+  "invoice": "PI/379040313/ 314",
+  "consignee": "KEM COLOUR",
+  "pkgs": 2,
+  "chargeableWt": 1381,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "207",
+    "date": "2025-11-08",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "0087",
+    "date": "2025-11-11",
+    "to": "MXP",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-11-07",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 113,
+  "awb": "607-51306231",
+  "date": "2025-11-07",
+  "destination": "MILAN MALPENSA",
+  "invoice": "PI/379040315",
+  "consignee": "KEM COLOUR",
+  "pkgs": 1,
+  "chargeableWt": 277,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "207",
+    "date": "2025-11-08",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "0081",
+    "date": "2025-11-12",
+    "to": "MXP",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-11-07",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 114,
+  "awb": "978-20595761",
+  "date": "2025-11-10",
+  "destination": "HO CHI MINH CITY",
+  "invoice": "PI/379040332",
+  "consignee": "CONG TY TNHH COLOUR FIRST VIETNAM",
+  "pkgs": 1,
+  "chargeableWt": 146,
+  "legs": [
+   {
+    "carrier": "VJ",
+    "flightNo": "884",
+    "date": "2025-11-12",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-11-10",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 115,
+  "awb": "020-06854400",
+  "date": "2025-11-12",
+  "destination": "FRANKFURT",
+  "invoice": "PI/379040395",
+  "consignee": "DYSTAR COLOURS DISTRIBUTION",
+  "pkgs": 1,
+  "chargeableWt": 119,
+  "legs": [
+   {
+    "carrier": "LH",
+    "flightNo": "757",
+    "date": "2025-11-13",
+    "to": "FRA",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-11-12",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 116,
+  "awb": "978-20596881",
+  "date": "2025-11-21",
+  "destination": "HO CHI MINH CITY",
+  "invoice": "PI/3790",
+  "consignee": "CONG TY TNHH COLOUR FIRST VIETNAM",
+  "pkgs": 1,
+  "chargeableWt": 422,
+  "legs": [
+   {
+    "carrier": "VJ",
+    "flightNo": "884",
+    "date": "2025-11-26",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-11-21",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 117,
+  "awb": "176-16374676",
+  "date": "2025-11-27",
+  "destination": "MEXICO CITY",
+  "invoice": "PI/379040582/83",
+  "consignee": "VALFRACHEM S DE RL DE CV",
+  "pkgs": 2,
+  "chargeableWt": 755,
+  "legs": [
+   {
+    "carrier": "EK",
+    "flightNo": "507",
+    "date": "2025-11-28",
+    "to": "DXB",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "255",
+    "date": "2025-11-30",
+    "to": "MEX",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-11-27",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 118,
+  "awb": "618-43753135",
+  "date": "2025-11-27",
+  "destination": "JAKARTA",
+  "invoice": "PI/379040599/600",
+  "consignee": "PT. POLARIS PRIMA CHEMICALS",
+  "pkgs": 4,
+  "chargeableWt": 2469,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "7951",
+    "date": "2025-11-29",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "964",
+    "date": "2025-11-30",
+    "to": "CGK",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-11-27",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 119,
+  "awb": "205-83761834",
+  "date": "2025-11-28",
+  "destination": "INCHEON",
+  "invoice": "PI/379040618",
+  "consignee": "SEEONE CO. LTD",
+  "pkgs": 1,
+  "chargeableWt": 504,
+  "legs": [
+   {
+    "carrier": "NH",
+    "flightNo": "830",
+    "date": "2025-11-30",
+    "to": "NRT",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "NH",
+    "flightNo": "8475",
+    "date": "2025-12-02",
+    "to": "ICN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-11-28",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 120,
+  "awb": "607-51306290",
+  "date": "2025-12-01",
+  "destination": "MILAN MALPENSA",
+  "invoice": "PI/379040672",
+  "consignee": "ZAITEX SPA",
+  "pkgs": 2,
+  "chargeableWt": 935,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "205",
+    "date": "2025-12-02",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "0079",
+    "date": "2025-12-04",
+    "to": "MXP",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-12-01",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 121,
+  "awb": "618-43753150",
+  "date": "2025-12-01",
+  "destination": "JAKARTA",
+  "invoice": "PI/379040674/ 75",
+  "consignee": "PT WARNA TEKSTIL LESTARI",
+  "pkgs": 1,
+  "chargeableWt": 433,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "421",
+    "date": "2025-12-03",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "960",
+    "date": "2025-12-07",
+    "to": "CGK",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-12-01",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 122,
+  "awb": "618-43753146",
+  "date": "2025-12-01",
+  "destination": "TAIPEI",
+  "invoice": "PI/379040673",
+  "consignee": "RIITS TRADING CO. LTD",
+  "pkgs": 1,
+  "chargeableWt": 286,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "423",
+    "date": "2025-12-02",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "876",
+    "date": "2025-12-04",
+    "to": "TPE",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-12-01",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 123,
+  "awb": "607-51306286",
+  "date": "2025-12-01",
+  "destination": "BARCELONA",
+  "invoice": "PI/379040676",
+  "consignee": "TENYCOL",
+  "pkgs": 1,
+  "chargeableWt": 22,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "207",
+    "date": "2025-12-04",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "111",
+    "date": "2025-12-06",
+    "to": "BCN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-12-01",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 124,
+  "awb": "160-76544042",
+  "date": "2025-12-05",
+  "destination": "BANGKOK",
+  "invoice": "PI/379040713",
+  "consignee": "ARCHROMA THAILAND COMPANY LIMITED",
+  "pkgs": 1,
+  "chargeableWt": 171,
+  "legs": [
+   {
+    "carrier": "CX",
+    "flightNo": "3218",
+    "date": "2025-12-05",
+    "to": "HKG",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "CX",
+    "flightNo": "701",
+    "date": "2025-12-07",
+    "to": "BKK",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-12-05",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 125,
+  "awb": "978-20628694",
+  "date": "2025-12-05",
+  "destination": "HO CHI MINH CITY",
+  "invoice": "PI/3790",
+  "consignee": "CONG THY TNHH COLOUR FIRST VIETNAM",
+  "pkgs": 3,
+  "chargeableWt": 2230,
+  "legs": [
+   {
+    "carrier": "VJ",
+    "flightNo": "884",
+    "date": "2025-12-07",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-12-05",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 126,
+  "awb": "618-43753161",
+  "date": "2025-12-05",
+  "destination": "INCHEON",
+  "invoice": "PI/379040734",
+  "consignee": "ARCHROMA KOREA",
+  "pkgs": 2,
+  "chargeableWt": 54,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "423",
+    "date": "2025-12-06",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "608",
+    "date": "2025-12-08",
+    "to": "ICN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-12-05",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 127,
+  "awb": "160-76544333",
+  "date": "2025-12-09",
+  "destination": "OSAKA",
+  "invoice": "PI/379040740",
+  "consignee": "NIKKA FINE TECHNO",
+  "pkgs": 4,
+  "chargeableWt": 2193,
+  "legs": [
+   {
+    "carrier": "CX",
+    "flightNo": "660",
+    "date": "2025-12-10",
+    "to": "HKG",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "CX",
+    "flightNo": "506",
+    "date": "2025-12-11",
+    "to": "KIX",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-12-09",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 128,
+  "awb": "978-20631133",
+  "date": "2025-12-12",
+  "destination": "HO CHI MINH CITY",
+  "invoice": null,
+  "consignee": "CONG TY TNHH COLOUR FIRST VIETNAM",
+  "pkgs": 2,
+  "chargeableWt": 45,
+  "legs": [
+   {
+    "carrier": "VJ",
+    "flightNo": "884",
+    "date": "2025-12-17",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-12-12",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 129,
+  "awb": "607-52215030",
+  "date": "2025-12-15",
+  "destination": "MILAN MALPENSA",
+  "invoice": "PI/379040837",
+  "consignee": "KEM COLOR S.P.A",
+  "pkgs": 1,
+  "chargeableWt": 331,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "207",
+    "date": "2025-12-16",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "0081",
+    "date": "2025-12-18",
+    "to": "MXP",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-12-15",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 130,
+  "awb": "176-16374783",
+  "date": "2025-12-18",
+  "destination": "BRUSSELS",
+  "invoice": "PI/379040890",
+  "consignee": "ETS R. STIERNON",
+  "pkgs": 2,
+  "chargeableWt": 54,
+  "legs": [
+   {
+    "carrier": "EK",
+    "flightNo": "507",
+    "date": "2025-12-19",
+    "to": "DXB",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "181",
+    "date": "2025-12-21",
+    "to": "BRU",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-12-18",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 131,
+  "awb": "176-16374735",
+  "date": "2025-12-18",
+  "destination": "MEXICO CITY",
+  "invoice": "PI/379040889",
+  "consignee": "VALFRACHEM S DE RL DE CV",
+  "pkgs": 1,
+  "chargeableWt": 119,
+  "legs": [
+   {
+    "carrier": "EK",
+    "flightNo": "507",
+    "date": "2025-12-19",
+    "to": "DXB",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "255",
+    "date": "2025-12-23",
+    "to": "MEX",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-12-18",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 132,
+  "awb": "607-52215052",
+  "date": "2025-12-18",
+  "destination": "BARCELONA",
+  "invoice": "PI/379040858",
+  "consignee": "TENYCOL",
+  "pkgs": 2,
+  "chargeableWt": 45,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "205",
+    "date": "2025-12-20",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "113",
+    "date": "2025-12-23",
+    "to": "BCN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-12-18",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 133,
+  "awb": "074-72569884",
+  "date": "2025-12-22",
+  "destination": "DETROIT",
+  "invoice": "PI/379040915",
+  "consignee": "CHROMATECH INC",
+  "pkgs": 1,
+  "chargeableWt": 392,
+  "legs": [
+   {
+    "carrier": "KL",
+    "flightNo": "0878",
+    "date": "2025-12-23",
+    "to": "AMS",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "DL",
+    "flightNo": "0137",
+    "date": "2025-12-24",
+    "to": "DTW",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-12-22",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 134,
+  "awb": "618-43753076",
+  "date": "2025-12-24",
+  "destination": "JAKARTA",
+  "invoice": "PI/379040926",
+  "consignee": "POLARIS PRIMA CHEMICALS",
+  "pkgs": 1,
+  "chargeableWt": 608,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "421",
+    "date": "2025-12-26",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "952",
+    "date": "2025-12-28",
+    "to": "CGK",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-12-24",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 135,
+  "awb": "603-76237663",
+  "date": "2025-12-24",
+  "destination": "COLOMBO",
+  "invoice": "PI/379040964",
+  "consignee": "NOYON LANKA PVT LTD",
+  "pkgs": 2,
+  "chargeableWt": 54,
+  "legs": [
+   {
+    "carrier": "UL",
+    "flightNo": "142",
+    "date": "2025-12-26",
+    "to": "CMB",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-12-24",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 136,
+  "awb": "074-72569851",
+  "date": "2025-12-27",
+  "destination": "DETROIT",
+  "invoice": "PI/379041003",
+  "consignee": "CHROMATECH INC",
+  "pkgs": 2,
+  "chargeableWt": 1132,
+  "legs": [
+   {
+    "carrier": "AF",
+    "flightNo": "207",
+    "date": "2025-12-29",
+    "to": "CDG",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "AF",
+    "flightNo": "378",
+    "date": "2025-12-30",
+    "to": "DTW",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2025-12-27",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 138,
+  "awb": "618-43753102",
+  "date": "2026-01-02",
+  "destination": "TAIPEI",
+  "invoice": "PI/379041074",
+  "consignee": "SUN WAN INTERNATIONAL CO., LTD",
+  "pkgs": 1,
+  "chargeableWt": 331,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "421",
+    "date": "2026-01-04",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "878",
+    "date": "2026-01-05",
+    "to": "TPE",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-01-02",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 139,
+  "awb": "618-43753080",
+  "date": "2026-01-02",
+  "destination": "JAKARTA",
+  "invoice": "PI/379040965",
+  "consignee": "PT WARNA TEKSTIL LESTARI",
+  "pkgs": 3,
+  "chargeableWt": 1987,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "421",
+    "date": "2026-01-04",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "950",
+    "date": "2026-01-05",
+    "to": "CGK",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-01-02",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 140,
+  "awb": "618-43753091",
+  "date": "2026-01-02",
+  "destination": "JAKARTA",
+  "invoice": "PI/379041004",
+  "consignee": "PT WARNA TEKSTIL LESTARI",
+  "pkgs": 1,
+  "chargeableWt": 741,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "421",
+    "date": "2026-01-04",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "966",
+    "date": "2026-01-05",
+    "to": "CGK",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-01-02",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 141,
+  "awb": "607-52215026",
+  "date": "2026-01-02",
+  "destination": "MILAN MALPENSA",
+  "invoice": "PI/379040802",
+  "consignee": "PROCHIMICA NOVARSEE SPA",
+  "pkgs": 2,
+  "chargeableWt": 1113,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "207",
+    "date": "2026-01-04",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "0079",
+    "date": "2026-01-05",
+    "to": "MXP",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-01-02",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 137,
+  "awb": "738-05198196",
+  "date": "2026-01-03",
+  "destination": "HO CHI MINH CITY",
+  "invoice": "PI/3790",
+  "consignee": "CONG TY TNHH COLOUR FIRST VIETNAM",
+  "pkgs": 2,
+  "chargeableWt": 838,
+  "legs": [
+   {
+    "carrier": "VN",
+    "flightNo": "978",
+    "date": "2026-01-06",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-01-03",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 142,
+  "awb": "724-85579476",
+  "date": "2026-01-06",
+  "destination": "BUCHAREST",
+  "invoice": "PI/379041111",
+  "consignee": "COATS ROMANIA SRL",
+  "pkgs": 2,
+  "chargeableWt": 54,
+  "legs": [
+   {
+    "carrier": "LX",
+    "flightNo": "0155",
+    "date": "2026-01-07",
+    "to": "ZRH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "LX",
+    "flightNo": "1886",
+    "date": "2026-01-07",
+    "to": "OTP",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-01-06",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 143,
+  "awb": "607-51306264",
+  "date": "2026-01-09",
+  "destination": "MANCHESTER",
+  "invoice": "PI/379041151",
+  "consignee": "MAGNA COLOURS",
+  "pkgs": 1,
+  "chargeableWt": 251,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "205",
+    "date": "2026-01-10",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "0075",
+    "date": "2026-01-12",
+    "to": "MAN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-01-09",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 144,
+  "awb": "176-16542713",
+  "date": "2026-01-09",
+  "destination": "COLOMBO",
+  "invoice": "PI/379041144",
+  "consignee": "MAS FABRICS PVT LTD",
+  "pkgs": 1,
+  "chargeableWt": 119,
+  "legs": [
+   {
+    "carrier": "EK",
+    "flightNo": "507",
+    "date": "2026-01-10",
+    "to": "DXB",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "650",
+    "date": "2026-01-12",
+    "to": "CMB",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-01-09",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 145,
+  "awb": "607-52215100",
+  "date": "2026-01-09",
+  "destination": "DUSSELDORF",
+  "invoice": "PI/379040888",
+  "consignee": "YORKSHIRE FARBEN",
+  "pkgs": 1,
+  "chargeableWt": 27,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "205",
+    "date": "2026-01-11",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "133",
+    "date": "2026-01-13",
+    "to": "DUS",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-01-09",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 146,
+  "awb": "014-38328824",
+  "date": "2026-01-09",
+  "destination": "MONTREAL",
+  "invoice": "PI/379041136",
+  "consignee": "DRAPEAUX BT BANNIERES L ETENDARD",
+  "pkgs": 1,
+  "chargeableWt": 142,
+  "legs": [
+   {
+    "carrier": "AC",
+    "flightNo": "857",
+    "date": "2026-01-13",
+    "to": "YYZ",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "AC",
+    "flightNo": "480",
+    "date": "2026-01-14",
+    "to": "YUL",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-01-09",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 147,
+  "awb": "235-32322275",
+  "date": "2026-01-14",
+  "destination": "ISTANBUL",
+  "invoice": "PI/379041173",
+  "consignee": "ROHA GIDA KATKI MADDELERI TIC",
+  "pkgs": 2,
+  "chargeableWt": 1050,
+  "legs": [
+   {
+    "carrier": "TK",
+    "flightNo": "6113",
+    "date": "2026-01-16",
+    "to": "IST",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-01-14",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 148,
+  "awb": "607-51306301",
+  "date": "2026-01-16",
+  "destination": "MILAN MALPENSA",
+  "invoice": "PI/379041153/ 54",
+  "consignee": "ZAITEX SPA",
+  "pkgs": 4,
+  "chargeableWt": 1798,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "207",
+    "date": "2026-01-17",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "0079",
+    "date": "2026-01-19",
+    "to": "MXP",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-01-16",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 149,
+  "awb": "176-16542750",
+  "date": "2026-01-17",
+  "destination": "MEXICO CITY",
+  "invoice": "PI/379041191",
+  "consignee": "VALFRACHEM S DE RL DE CV",
+  "pkgs": 1,
+  "chargeableWt": 117,
+  "legs": [
+   {
+    "carrier": "EK",
+    "flightNo": "507",
+    "date": "2026-01-18",
+    "to": "DXB",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "255",
+    "date": "2026-01-20",
+    "to": "MEX",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-01-17",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 150,
+  "awb": "607-51306312",
+  "date": "2026-01-17",
+  "destination": "MILAN MALPENSA",
+  "invoice": "PI/379041201",
+  "consignee": "ZAITEX SPA",
+  "pkgs": 1,
+  "chargeableWt": 280,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "205",
+    "date": "2026-01-18",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "0081",
+    "date": "2026-01-21",
+    "to": "MXP",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-01-17",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 151,
+  "awb": "618-43753010",
+  "date": "2026-01-19",
+  "destination": "JAKARTA",
+  "invoice": "PI/379041221/ 222",
+  "consignee": "PT. POLARIS PRIMA CHEMICALS",
+  "pkgs": 4,
+  "chargeableWt": 2616,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "421",
+    "date": "2026-01-21",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "960",
+    "date": "2026-01-22",
+    "to": "CGK",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-01-19",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 152,
+  "awb": "160-96595822",
+  "date": "2026-01-27",
+  "destination": "TAIPEI",
+  "invoice": "PI/379041324",
+  "consignee": "JEAN WAN INTERNATIONAL",
+  "pkgs": 1,
+  "chargeableWt": 503,
+  "legs": [
+   {
+    "carrier": "CX",
+    "flightNo": "660",
+    "date": "2026-01-28",
+    "to": "HKG",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "CX",
+    "flightNo": "2026",
+    "date": "2026-01-30",
+    "to": "TPE",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-01-27",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 153,
+  "awb": "618-43753043",
+  "date": "2026-01-27",
+  "destination": "INCHEON",
+  "invoice": "PI/379041325",
+  "consignee": "SEEONE CO. LTD",
+  "pkgs": 1,
+  "chargeableWt": 227,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "421",
+    "date": "2026-01-28",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "TR",
+    "flightNo": "896",
+    "date": "2026-02-02",
+    "to": "ICN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-01-27",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 155,
+  "awb": "229-17871700",
+  "date": "2026-01-28",
+  "destination": "DHAKA",
+  "invoice": "PI/379041323",
+  "consignee": "COATS BANGLADESH LTD",
+  "pkgs": 1,
+  "chargeableWt": 62,
+  "legs": [
+   {
+    "carrier": "KU",
+    "flightNo": "304",
+    "date": "2026-01-30",
+    "to": "KWI",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "KU",
+    "flightNo": "283D",
+    "date": "2026-02-01",
+    "to": "DAC",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-01-28",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 154,
+  "awb": "618-43753065",
+  "date": "2026-01-29",
+  "destination": "JAKARTA",
+  "invoice": "PI/379041351/ 352",
+  "consignee": "PT. SOLARIS PRIMA CHEMICALS",
+  "pkgs": 1,
+  "chargeableWt": 658,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "7951",
+    "date": "2026-01-31",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "950",
+    "date": "2026-02-02",
+    "to": "CGK",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-01-29",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 156,
+  "awb": "160-96595833",
+  "date": "2026-01-30",
+  "destination": "INCHEON",
+  "invoice": "PI/379041372",
+  "consignee": "SEEONE CO. LTD",
+  "pkgs": 1,
+  "chargeableWt": 613,
+  "legs": [
+   {
+    "carrier": "CX",
+    "flightNo": "660",
+    "date": "2026-02-01",
+    "to": "HKG",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "CX",
+    "flightNo": "036",
+    "date": "2026-02-03",
+    "to": "ICN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-01-30",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 157,
+  "awb": "176-16542901",
+  "date": "2026-02-02",
+  "destination": "BRUSSELS",
+  "invoice": "PI/379041371",
+  "consignee": "MILLIKEN EUROPE BV",
+  "pkgs": 6,
+  "chargeableWt": 3188,
+  "legs": [
+   {
+    "carrier": "EK",
+    "flightNo": "505",
+    "date": "2026-02-03",
+    "to": "DXB",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "181",
+    "date": "2026-02-04",
+    "to": "BRU",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-02-02",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 158,
+  "awb": "607-52215155",
+  "date": "2026-02-05",
+  "destination": "BARCELONA",
+  "invoice": "PI/379041411",
+  "consignee": "TENYCOL",
+  "pkgs": 1,
+  "chargeableWt": 273,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "205",
+    "date": "2026-02-06",
+    "to": "AUH",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "111",
+    "date": "2026-02-08",
+    "to": "BCN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-02-05",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 159,
+  "awb": "618-43752962",
+  "date": "2026-02-05",
+  "destination": "TAIPEI",
+  "invoice": "PI/379041419",
+  "consignee": "RIITS TRADING CO. LTD",
+  "pkgs": 1,
+  "chargeableWt": 230,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "7951",
+    "date": "2026-02-07",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "876",
+    "date": "2026-02-08",
+    "to": "TPE",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-02-05",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 160,
+  "awb": "176-16542923",
+  "date": "2026-02-05",
+  "destination": "BARCELONA",
+  "invoice": "PI/379041414",
+  "consignee": "COLORANTES INDUSTRIALES S.A",
+  "pkgs": 1,
+  "chargeableWt": 557,
+  "legs": [
+   {
+    "carrier": "EK",
+    "flightNo": "509",
+    "date": "2026-02-07",
+    "to": "DXB",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "185",
+    "date": "2026-02-08",
+    "to": "BCN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-02-05",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 161,
+  "awb": "738-05941574",
+  "date": "2026-02-05",
+  "destination": "HO CHI MINH CITY",
+  "invoice": "PI/3790",
+  "consignee": "CONG TY TNHH COLOUR FIRST VIETNAM",
+  "pkgs": 1,
+  "chargeableWt": 331,
+  "legs": [
+   {
+    "carrier": "VN",
+    "flightNo": "978",
+    "date": "2026-02-06",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-02-05",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 162,
+  "awb": "176-16542956",
+  "date": "2026-02-07",
+  "destination": "FRANKFURT",
+  "invoice": "PI/379041447",
+  "consignee": "DYSTAR COLOURS DISTRIBUTION",
+  "pkgs": 4,
+  "chargeableWt": 1695,
+  "legs": [
+   {
+    "carrier": "EK",
+    "flightNo": "9503",
+    "date": "2026-02-08",
+    "to": "DWC",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "9935",
+    "date": "2026-02-12",
+    "to": "FRA",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-02-07",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 163,
+  "awb": "618-43752984",
+  "date": "2026-02-10",
+  "destination": "OSAKA",
+  "invoice": "PI/379041492",
+  "consignee": "ARCHROMA JAPAN K.K",
+  "pkgs": 1,
+  "chargeableWt": 60,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "423",
+    "date": "2026-02-11",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "620",
+    "date": "2026-02-15",
+    "to": "KIX",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-02-10",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 164,
+  "awb": "176-25482450",
+  "date": "2026-02-20",
+  "destination": "MANCHESTER",
+  "invoice": "PI/379041565",
+  "consignee": "MAGNA COLOURS",
+  "pkgs": 1,
+  "chargeableWt": 76,
+  "legs": [
+   {
+    "carrier": "EK",
+    "flightNo": "507",
+    "date": "2026-02-21",
+    "to": "DXB",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "0017",
+    "date": "2026-02-22",
+    "to": "MAN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-02-20",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 165,
+  "awb": "176-25482446",
+  "date": "2026-02-20",
+  "destination": "MILAN MALPENSA",
+  "invoice": "PI/379041564",
+  "consignee": "ZAITEX SPA",
+  "pkgs": 1,
+  "chargeableWt": 500,
+  "legs": [
+   {
+    "carrier": "EK",
+    "flightNo": "507",
+    "date": "2026-02-21",
+    "to": "DXB",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "EK",
+    "flightNo": "101",
+    "date": "2026-02-22",
+    "to": "MXP",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-02-20",
+  "sheet": "Sheet1"
+ },
+ {
+  "sr": 1,
+  "awb": "020-04558396",
+  "date": "2026-03-02",
+  "destination": "DUSSELDORF",
+  "invoice": "PI/379041750",
+  "consignee": "YORKSHIRE FARBEN GMBH",
+  "pkgs": 1,
+  "chargeableWt": 396,
+  "legs": [
+   {
+    "carrier": "LH",
+    "flightNo": "767",
+    "date": "2026-03-05",
+    "to": "MUC",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "LH",
+    "flightNo": "2040",
+    "date": "2026-03-05",
+    "to": "DUS",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-03-02",
+  "sheet": "MARCH-26"
+ },
+ {
+  "sr": 2,
+  "awb": "618-43752940",
+  "date": "2026-03-02",
+  "destination": "JAKARTA",
+  "invoice": "PI/379041738",
+  "consignee": "PT WARNA TEKSTIL LESTARI",
+  "pkgs": 1,
+  "chargeableWt": 611,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "7973",
+    "date": "2026-03-04",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "0960",
+    "date": "2026-03-07",
+    "to": "CGK",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-03-02",
+  "sheet": "MARCH-26"
+ },
+ {
+  "sr": 3,
+  "awb": "618-43752844",
+  "date": "2026-03-06",
+  "destination": "NARITA",
+  "invoice": "PI/379041769",
+  "consignee": "MARKTEC CORPORATION",
+  "pkgs": 1,
+  "chargeableWt": 167,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "423",
+    "date": "2026-03-08",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "638",
+    "date": "2026-03-10",
+    "to": "NRT",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-03-06",
+  "sheet": "MARCH-26"
+ },
+ {
+  "sr": 4,
+  "awb": "738-05950136",
+  "date": "2026-03-10",
+  "destination": "HO CHI MINH CITY",
+  "invoice": "PI/379041849",
+  "consignee": "GOLDEN DRAGON TRADING CO., LTD",
+  "pkgs": 1,
+  "chargeableWt": 278,
+  "legs": [
+   {
+    "carrier": "VN",
+    "flightNo": "978",
+    "date": "2026-03-11",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-03-10",
+  "sheet": "MARCH-26"
+ },
+ {
+  "sr": 5,
+  "awb": "074-72570002",
+  "date": "2026-03-13",
+  "destination": "QUITO",
+  "invoice": "PI/379041821",
+  "consignee": "EDWIN FERNANDO RODRIGUEZ",
+  "pkgs": 1,
+  "chargeableWt": 612,
+  "legs": [
+   {
+    "carrier": "KL",
+    "flightNo": "878",
+    "date": "2026-03-15",
+    "to": "AMS",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "KL",
+    "flightNo": "755",
+    "date": "2026-03-18",
+    "to": "UIO",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-03-13",
+  "sheet": "MARCH-26"
+ },
+ {
+  "sr": 6,
+  "awb": "738-05950475",
+  "date": "2026-03-13",
+  "destination": "HO CHI MINH CITY",
+  "invoice": "PI/379041870",
+  "consignee": "CONG TY TNHH COLOUR FIRST",
+  "pkgs": 1,
+  "chargeableWt": 277,
+  "legs": [
+   {
+    "carrier": "VN",
+    "flightNo": "978",
+    "date": "2026-03-14",
+    "to": "HAN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "VN",
+    "flightNo": "253",
+    "date": "2026-03-15",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-03-13",
+  "sheet": "MARCH-26"
+ },
+ {
+  "sr": 7,
+  "awb": "074-72570024",
+  "date": "2026-03-13",
+  "destination": "FRANKFURT",
+  "invoice": "PI/379041857",
+  "consignee": "ARCHROMA GERMANY",
+  "pkgs": 1,
+  "chargeableWt": 279,
+  "legs": [
+   {
+    "carrier": "KL",
+    "flightNo": "878",
+    "date": "2026-03-16",
+    "to": "AMS",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "KL",
+    "flightNo": "8353",
+    "date": "2026-03-17",
+    "to": "FRA",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-03-13",
+  "sheet": "MARCH-26"
+ },
+ {
+  "sr": 8,
+  "awb": "074-72570035",
+  "date": "2026-03-13",
+  "destination": "MEXICO CITY",
+  "invoice": "PI/379041882",
+  "consignee": "VALFRACHEM S DE RL DE CV",
+  "pkgs": 2,
+  "chargeableWt": 54,
+  "legs": [
+   {
+    "carrier": "KL",
+    "flightNo": "878",
+    "date": "2026-03-15",
+    "to": "AMS",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "KL",
+    "flightNo": "685",
+    "date": "2026-03-16",
+    "to": "MEX",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-03-13",
+  "sheet": "MARCH-26"
+ },
+ {
+  "sr": 9,
+  "awb": "074-72570083",
+  "date": "2026-03-18",
+  "destination": "DUSSELDORF",
+  "invoice": "PI/379041925",
+  "consignee": "YORKSHIRE FARBEN GMBH",
+  "pkgs": 1,
+  "chargeableWt": 75,
+  "legs": [
+   {
+    "carrier": "KL",
+    "flightNo": "878",
+    "date": "2026-03-20",
+    "to": "AMS",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "KL",
+    "flightNo": "8449",
+    "date": "2026-03-23",
+    "to": "DUS",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-03-18",
+  "sheet": "MARCH-26"
+ },
+ {
+  "sr": 10,
+  "awb": "312-96571576",
+  "date": "2026-03-21",
+  "destination": "DHAKA",
+  "invoice": "PI/379041963",
+  "consignee": "COATS BANGLADESH LTD",
+  "pkgs": 4,
+  "chargeableWt": 107,
+  "legs": [],
+  "clearanceDate": "2026-03-21",
+  "sheet": "MARCH-26"
+ },
+ {
+  "sr": 11,
+  "awb": "932-77505175",
+  "date": "2026-03-28",
+  "destination": "MANCHESTER",
+  "invoice": "PI/379042052/ 53",
+  "consignee": "MAGNA COLOURS LTD",
+  "pkgs": 1,
+  "chargeableWt": 236,
+  "legs": [
+   {
+    "carrier": "VS",
+    "flightNo": "355",
+    "date": "2026-03-30",
+    "to": "LHR",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "VS",
+    "flightNo": "6901",
+    "date": "2026-03-31",
+    "to": "MAN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-03-28",
+  "sheet": "MARCH-26"
+ },
+ {
+  "sr": 1,
+  "awb": "074-72570116",
+  "date": "2026-04-03",
+  "destination": "MEXICO CITY",
+  "invoice": "PI/379042143",
+  "consignee": "VALFRACHEM S DE RL DE CV",
+  "pkgs": 1,
+  "chargeableWt": 27,
+  "legs": [
+   {
+    "carrier": "AF",
+    "flightNo": "6727",
+    "date": "2026-04-06",
+    "to": "CDG",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "AF",
+    "flightNo": "0174",
+    "date": "2026-04-07",
+    "to": "MEX",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-04-03",
+  "sheet": "APRIL-26"
+ },
+ {
+  "sr": 2,
+  "awb": "057-59220114",
+  "date": "2026-04-06",
+  "destination": "BRUSSELS",
+  "invoice": "PI/379042082",
+  "consignee": "MILLIKEN EUROPE",
+  "pkgs": 2,
+  "chargeableWt": 656,
+  "legs": [
+   {
+    "carrier": "AF",
+    "flightNo": "6727",
+    "date": "2026-04-09",
+    "to": "CDG",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "AF",
+    "flightNo": "0390D",
+    "date": "2026-04-10",
+    "to": "BRU",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-04-06",
+  "sheet": "APRIL-26"
+ },
+ {
+  "sr": 3,
+  "awb": "057-59219952",
+  "date": "2026-04-09",
+  "destination": "QUITO",
+  "invoice": "PI/379042222",
+  "consignee": "EDWIN FERNANDO RODRIGUEZ",
+  "pkgs": 1,
+  "chargeableWt": 666,
+  "legs": [
+   {
+    "carrier": "AF",
+    "flightNo": "6727",
+    "date": "2026-04-12",
+    "to": "CDG",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "AF",
+    "flightNo": "6978",
+    "date": "2026-04-13",
+    "to": "AMS",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "KL",
+    "flightNo": "0751",
+    "date": "2026-04-18",
+    "to": "UIO",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-04-09",
+  "sheet": "APRIL-26"
+ },
+ {
+  "sr": 4,
+  "awb": "057-59220173",
+  "date": "2026-04-15",
+  "destination": "BRUSSELS",
+  "invoice": "PI/379042324",
+  "consignee": "RADIANT COLOR NV",
+  "pkgs": 1,
+  "chargeableWt": 393,
+  "legs": [
+   {
+    "carrier": "AF",
+    "flightNo": "6727",
+    "date": "2026-04-16",
+    "to": "CDG",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "AF",
+    "flightNo": "380D",
+    "date": "2026-04-18",
+    "to": "BRU",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-04-15",
+  "sheet": "APRIL-26"
+ },
+ {
+  "sr": 5,
+  "awb": "618-25763706",
+  "date": "2026-04-16",
+  "destination": "TAIPEI",
+  "invoice": "PI/379042322",
+  "consignee": "CONTINENTAL CO., LTD",
+  "pkgs": 1,
+  "chargeableWt": 348,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "421",
+    "date": "2026-04-17",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "872",
+    "date": "2026-04-19",
+    "to": "TPE",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-04-16",
+  "sheet": "APRIL-26"
+ },
+ {
+  "sr": 9,
+  "awb": "738-06896260",
+  "date": "2026-04-23",
+  "destination": "HO CHI MINH CITY",
+  "invoice": "PI/3790",
+  "consignee": "CONG TY TNHH COLOUR FIRST",
+  "pkgs": 1,
+  "chargeableWt": 416,
+  "legs": [
+   {
+    "carrier": "VN",
+    "flightNo": "978",
+    "date": "2026-04-24",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-04-23",
+  "sheet": "APRIL-26"
+ },
+ {
+  "sr": 10,
+  "awb": "071-60200140",
+  "date": "2026-04-23",
+  "destination": "CAPE TOWN",
+  "invoice": "PI/379042459",
+  "consignee": "TST AGENCIES CC",
+  "pkgs": 1,
+  "chargeableWt": 144,
+  "legs": [
+   {
+    "carrier": "ET",
+    "flightNo": "3611",
+    "date": "2026-04-27",
+    "to": "ADD",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "ET",
+    "flightNo": "845",
+    "date": "2026-04-29",
+    "to": "CPT",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-04-23",
+  "sheet": "APRIL-26"
+ },
+ {
+  "sr": 6,
+  "awb": "738-06896341",
+  "date": "2026-04-24",
+  "destination": "HO CHI MINH CITY",
+  "invoice": "PI/379042472",
+  "consignee": "GOLDEN DRAGON TRADING CO., LTD",
+  "pkgs": 1,
+  "chargeableWt": 227,
+  "legs": [
+   {
+    "carrier": "VN",
+    "flightNo": "972",
+    "date": "2026-04-26",
+    "to": "HAN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "VN",
+    "flightNo": "259",
+    "date": "2026-04-27",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-04-24",
+  "sheet": "APRIL-26"
+ },
+ {
+  "sr": 7,
+  "awb": "160-96595914",
+  "date": "2026-04-24",
+  "destination": "TAIPEI",
+  "invoice": "PI/379042432",
+  "consignee": "RIITS TRADING",
+  "pkgs": 1,
+  "chargeableWt": 347,
+  "legs": [
+   {
+    "carrier": "CX",
+    "flightNo": "696",
+    "date": "2026-04-25",
+    "to": "HKG",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "CX",
+    "flightNo": "402",
+    "date": "2026-04-26",
+    "to": "TPE",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-04-24",
+  "sheet": "APRIL-26"
+ },
+ {
+  "sr": 8,
+  "awb": "160-96595903",
+  "date": "2026-04-24",
+  "destination": "TAIPEI",
+  "invoice": "PI/379042426",
+  "consignee": "RIITS TRADING",
+  "pkgs": 1,
+  "chargeableWt": 568,
+  "legs": [
+   {
+    "carrier": "CX",
+    "flightNo": "660",
+    "date": "2026-04-27",
+    "to": "HKG",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "CX",
+    "flightNo": "564",
+    "date": "2026-04-28",
+    "to": "TPE",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-04-24",
+  "sheet": "APRIL-26"
+ },
+ {
+  "sr": 1,
+  "awb": "014-38336841",
+  "date": "2026-05-04",
+  "destination": "GUATEMALA",
+  "invoice": "PI/379042552",
+  "consignee": "APPAREL & TEXTILE SOURCHING",
+  "pkgs": 1,
+  "chargeableWt": 107,
+  "legs": [
+   {
+    "carrier": "CX",
+    "flightNo": "660",
+    "date": "2026-05-06",
+    "to": "HKG",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "CX",
+    "flightNo": "500",
+    "date": "2026-05-07",
+    "to": "NRT",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "AC",
+    "flightNo": "006",
+    "date": "2026-05-08",
+    "to": "YUL",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "AC",
+    "flightNo": "481",
+    "date": "2026-05-09",
+    "to": "YYZ",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "AC",
+    "flightNo": "7258",
+    "date": "2026-05-10",
+    "to": "GUA",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-05-04",
+  "sheet": "MAY-26"
+ },
+ {
+  "sr": 2,
+  "awb": "312-92125666",
+  "date": "2026-05-11",
+  "destination": "DHAKA",
+  "invoice": "PI/379042633",
+  "consignee": "COATS BANGLADESH LTD",
+  "pkgs": 2,
+  "chargeableWt": 54,
+  "legs": [
+   {
+    "carrier": "6E",
+    "flightNo": "1115",
+    "date": "2026-05-23",
+    "to": "DAC",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-05-11",
+  "sheet": "MAY-26"
+ },
+ {
+  "sr": 3,
+  "awb": "074-72570175",
+  "date": "2026-05-16",
+  "destination": "LIMA",
+  "invoice": "PI/379042733",
+  "consignee": "COLTEX PERU SAC",
+  "pkgs": 3,
+  "chargeableWt": 1522,
+  "legs": [
+   {
+    "carrier": "KL",
+    "flightNo": "878",
+    "date": "2026-05-19",
+    "to": "AMS",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "KL",
+    "flightNo": "743",
+    "date": "2026-05-24",
+    "to": "LIM",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-05-16",
+  "sheet": "MAY-26"
+ },
+ {
+  "sr": 4,
+  "awb": "603-76403434",
+  "date": "2026-05-20",
+  "destination": "COLOMBO",
+  "invoice": "PI/379042790",
+  "consignee": "CLIFTEX INDUSTRIES PVT LTD",
+  "pkgs": 4,
+  "chargeableWt": 107,
+  "legs": [
+   {
+    "carrier": "UL",
+    "flightNo": "142",
+    "date": "2026-05-21",
+    "to": "CMB",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-05-20",
+  "sheet": "MAY-26"
+ },
+ {
+  "sr": 5,
+  "awb": "020-05135664",
+  "date": "2026-05-20",
+  "destination": "CHARLOTTE",
+  "invoice": "PI/379042774",
+  "consignee": "COLOURTEX INC",
+  "pkgs": 1,
+  "chargeableWt": 27,
+  "legs": [
+   {
+    "carrier": "LH",
+    "flightNo": "767",
+    "date": "2026-05-22",
+    "to": "MUC",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "LH",
+    "flightNo": "428",
+    "date": "2026-05-24",
+    "to": "CLT",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-05-20",
+  "sheet": "MAY-26"
+ },
+ {
+  "sr": 6,
+  "awb": "618-25763776",
+  "date": "2026-05-22",
+  "destination": "TAIPEI",
+  "invoice": "PI/379042820",
+  "consignee": "RIITS TRADING CO., LTD",
+  "pkgs": 1,
+  "chargeableWt": 567,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "7951",
+    "date": "2026-05-23",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "TR",
+    "flightNo": "872",
+    "date": "2026-05-24",
+    "to": "TPE",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-05-22",
+  "sheet": "MAY-26"
+ },
+ {
+  "sr": 7,
+  "awb": "618-25763802",
+  "date": "2026-05-26",
+  "destination": "OSAKA",
+  "invoice": "PI/379042869",
+  "consignee": "SANKYO TRADING CO., LTD",
+  "pkgs": 1,
+  "chargeableWt": 119,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "7973",
+    "date": "2026-05-27",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "SQ",
+    "flightNo": "622",
+    "date": "2026-05-31",
+    "to": "KIX",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-05-26",
+  "sheet": "MAY-26"
+ },
+ {
+  "sr": 8,
+  "awb": "738-06906060",
+  "date": "2026-05-29",
+  "destination": "INCHEON",
+  "invoice": "PI/379042837",
+  "consignee": "SEEONE CO., LTD",
+  "pkgs": 1,
+  "chargeableWt": 84,
+  "legs": [
+   {
+    "carrier": "VN",
+    "flightNo": "972",
+    "date": "2026-05-30",
+    "to": "HAN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "VN",
+    "flightNo": "416",
+    "date": "2026-06-02",
+    "to": "ICN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-05-29",
+  "sheet": "MAY-26"
+ },
+ {
+  "sr": 1,
+  "awb": "020-05303535",
+  "date": "2026-06-02",
+  "destination": "FRANKFURT",
+  "invoice": "PI/379042967",
+  "consignee": "SYNCO CHEMIE AG",
+  "pkgs": 2,
+  "chargeableWt": 1221,
+  "legs": [
+   {
+    "carrier": "LH",
+    "flightNo": "8023",
+    "date": "2026-06-03",
+    "to": "FRA",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-06-02",
+  "sheet": "JUNE-26"
+ },
+ {
+  "sr": 2,
+  "awb": "074-72570190",
+  "date": "2026-06-02",
+  "destination": "AMSTERDAM",
+  "invoice": "PI/379042964",
+  "consignee": "CHEMISCHE FABREIK TRIADE",
+  "pkgs": 1,
+  "chargeableWt": 557,
+  "legs": [
+   {
+    "carrier": "KL",
+    "flightNo": "878",
+    "date": "2026-06-04",
+    "to": "AMS",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-06-02",
+  "sheet": "JUNE-26"
+ },
+ {
+  "sr": 3,
+  "awb": "738-06908484",
+  "date": "2026-06-06",
+  "destination": "HO CHI MINH CITY",
+  "invoice": "PI/379042",
+  "consignee": "CONG TY TNHH COLOUR FIRST VIETNAM",
+  "pkgs": 1,
+  "chargeableWt": 100,
+  "legs": [
+   {
+    "carrier": "VN",
+    "flightNo": "978",
+    "date": "2026-06-08",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-06-06",
+  "sheet": "JUNE-26"
+ },
+ {
+  "sr": 4,
+  "awb": "618-25763835",
+  "date": "2026-06-11",
+  "destination": "TAIPEI",
+  "invoice": "PI/379043074",
+  "consignee": "SUN WAN INTERNATIONAL CO., LTD",
+  "pkgs": 1,
+  "chargeableWt": 556,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "421",
+    "date": "2026-06-13",
+    "to": "SIN",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "TR",
+    "flightNo": "892",
+    "date": "2026-06-16",
+    "to": "TPE",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-06-11",
+  "sheet": "JUNE-26"
+ },
+ {
+  "sr": 5,
+  "awb": "057-59220324",
+  "date": "2026-06-11",
+  "destination": "MEXICO CITY",
+  "invoice": "PI/379042143",
+  "consignee": "VALFRACHEM S DE RL DE CV",
+  "pkgs": 3,
+  "chargeableWt": 1195,
+  "legs": [
+   {
+    "carrier": "AF",
+    "flightNo": "217",
+    "date": "2026-06-20",
+    "to": "CDG",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "AF",
+    "flightNo": "0178",
+    "date": "2026-06-21",
+    "to": "MEX",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-06-11",
+  "sheet": "JUNE-26"
+ },
+ {
+  "sr": 6,
+  "awb": "738-05956510",
+  "date": "2026-06-11",
+  "destination": "HO CHI MINH CITY",
+  "invoice": null,
+  "consignee": "CONG TY TNHH COLOUR FIRST VIETNAM",
+  "pkgs": 1,
+  "chargeableWt": 226,
+  "legs": [
+   {
+    "carrier": "VN",
+    "flightNo": "978",
+    "date": "2026-06-12",
+    "to": "SGN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-06-11",
+  "sheet": "JUNE-26"
+ },
+ {
+  "sr": 7,
+  "awb": "074-72570212",
+  "date": "2026-06-11",
+  "destination": "BRUSSELS",
+  "invoice": "PI/379043091",
+  "consignee": "MILLIKEN EUROPE BV",
+  "pkgs": 1,
+  "chargeableWt": 85,
+  "legs": [
+   {
+    "carrier": "KL",
+    "flightNo": "878",
+    "date": "2026-06-13",
+    "to": "AMS",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "KL",
+    "flightNo": "8103",
+    "date": "2026-06-14",
+    "to": "BRU",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-06-11",
+  "sheet": "JUNE-26"
+ },
+ {
+  "sr": 8,
+  "awb": "618-25763846",
+  "date": "2026-06-15",
+  "destination": "OSAKA",
+  "invoice": "PI/379043119",
+  "consignee": "TOYOTSU CHEMIPLAS CORPORATION",
+  "pkgs": 1,
+  "chargeableWt": 252,
+  "legs": [
+   {
+    "carrier": "SQ",
+    "flightNo": "618",
+    "date": "2026-06-18",
+    "to": "KIX",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-06-15",
+  "sheet": "JUNE-26"
+ },
+ {
+  "sr": 9,
+  "awb": "205-85121315",
+  "date": "2026-06-15",
+  "destination": "INCHEON",
+  "invoice": "PI/379043122 / PI/379043123",
+  "consignee": "SEEONE CO LTD",
+  "pkgs": 3,
+  "chargeableWt": 1870,
+  "legs": [
+   {
+    "carrier": "NH",
+    "flightNo": "830",
+    "date": "2026-06-16",
+    "to": "NRT",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "NH",
+    "flightNo": "8475",
+    "date": "2026-06-18",
+    "to": "ICN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-06-15",
+  "sheet": "JUNE-26"
+ },
+ {
+  "sr": 10,
+  "awb": "205-85121304",
+  "date": "2026-06-15",
+  "destination": "INCHEON",
+  "invoice": "PI/379043115 / PI/379043116",
+  "consignee": "SAMJIN TRADING CORPORATION",
+  "pkgs": 2,
+  "chargeableWt": 1114,
+  "legs": [
+   {
+    "carrier": "NH",
+    "flightNo": "830",
+    "date": "2026-06-16",
+    "to": "NRT",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "NH",
+    "flightNo": "8475",
+    "date": "2026-06-18",
+    "to": "ICN",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-06-15",
+  "sheet": "JUNE-26"
+ },
+ {
+  "sr": 11,
+  "awb": "074-72570234",
+  "date": "2026-06-16",
+  "destination": "MEXICO CITY",
+  "invoice": "PI/379043128",
+  "consignee": "VALFRACHEM S DE RL DE CV",
+  "pkgs": 1,
+  "chargeableWt": 504,
+  "legs": [
+   {
+    "carrier": "KL",
+    "flightNo": "0878",
+    "date": "2026-06-21",
+    "to": "AMS",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "KL",
+    "flightNo": "0685",
+    "date": "2026-06-22",
+    "to": "MEX",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-06-16",
+  "sheet": "JUNE-26"
+ },
+ {
+  "sr": 12,
+  "awb": "057-59220372",
+  "date": "2026-06-20",
+  "destination": "LIMA",
+  "invoice": "PI/379043220",
+  "consignee": "COLTEX PERU SAC",
+  "pkgs": 3,
+  "chargeableWt": 1808,
+  "legs": [
+   {
+    "carrier": "AF",
+    "flightNo": "0217",
+    "date": "2026-06-23",
+    "to": "CDG",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "AF",
+    "flightNo": "0504",
+    "date": "2026-06-24",
+    "to": "LIM",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-06-20",
+  "sheet": "JUNE-26"
+ },
+ {
+  "sr": 13,
+  "awb": "603-76426022",
+  "date": "2026-06-20",
+  "destination": "COLOMBO",
+  "invoice": "PI/379043221",
+  "consignee": "ESKIMO FASHION KNITWEAR",
+  "pkgs": 2,
+  "chargeableWt": 54,
+  "legs": [
+   {
+    "carrier": "UL",
+    "flightNo": "0142",
+    "date": "2026-06-22",
+    "to": "CMB",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-06-20",
+  "sheet": "JUNE-26"
+ },
+ {
+  "sr": 14,
+  "awb": "020-05503713",
+  "date": "2026-06-20",
+  "destination": "DUSSELDORF",
+  "invoice": "PI/379043218",
+  "consignee": "YORKSHIRE FARBEN GMBH",
+  "pkgs": 1,
+  "chargeableWt": 75,
+  "legs": [
+   {
+    "carrier": "LH",
+    "flightNo": "8023",
+    "date": "2026-06-21",
+    "to": "FRA",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "LH",
+    "flightNo": "7100S",
+    "date": "2026-06-22",
+    "to": "DUS",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-06-20",
+  "sheet": "JUNE-26"
+ },
+ {
+  "sr": 15,
+  "awb": "205-85127803",
+  "date": "2026-06-24",
+  "destination": "OSAKA",
+  "invoice": "PI/379043238",
+  "consignee": "NIKKA FINE TECHNO",
+  "pkgs": 4,
+  "chargeableWt": 2183,
+  "legs": [
+   {
+    "carrier": "NH",
+    "flightNo": "0830",
+    "date": "2026-06-25",
+    "to": "NRT",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "NH",
+    "flightNo": "8001",
+    "date": "2026-06-26",
+    "to": "KIX",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-06-24",
+  "sheet": "JUNE-26"
+ },
+ {
+  "sr": 16,
+  "awb": "217-08035230",
+  "date": "2026-06-25",
+  "destination": "BANGKOK",
+  "invoice": "PI/379043282",
+  "consignee": "PHISIT INTERGROUP",
+  "pkgs": 2,
+  "chargeableWt": 54,
+  "legs": [
+   {
+    "carrier": "TG",
+    "flightNo": "0352",
+    "date": "2026-06-27",
+    "to": "BKK",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-06-25",
+  "sheet": "JUNE-26"
+ },
+ {
+  "sr": 17,
+  "awb": "020-05560671",
+  "date": "2026-06-25",
+  "destination": "CHARLOTTE",
+  "invoice": "PI/379043274",
+  "consignee": "COLOURTEX INC",
+  "pkgs": 2,
+  "chargeableWt": 54,
+  "legs": [
+   {
+    "carrier": "LH",
+    "flightNo": "8025",
+    "date": "2026-06-26",
+    "to": "FRA",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "LH",
+    "flightNo": "094",
+    "date": "2026-06-28",
+    "to": "MUC",
+    "status": "FLOWN"
+   },
+   {
+    "carrier": "LH",
+    "flightNo": "428",
+    "date": "2026-07-03",
+    "to": "CLT",
+    "status": "FLOWN"
+   }
+  ],
+  "clearanceDate": "2026-06-25",
+  "sheet": "JUNE-26"
+ },
+ {
+  "sr": 1,
+  "awb": "607-53140824",
+  "date": "2026-07-06",
+  "destination": "BRUSSELS",
+  "invoice": "PI/379043401",
+  "consignee": "RADIANT COLOR NV",
+  "pkgs": 1,
+  "chargeableWt": 397,
+  "legs": [
+   {
+    "carrier": "EY",
+    "flightNo": "0205",
+    "date": "2026-07-08",
+    "to": "AUH",
+    "status": "BKD"
+   },
+   {
+    "carrier": "EY",
+    "flightNo": "0057",
+    "date": "2026-07-09",
+    "to": "BRU",
+    "status": "BKD"
+   }
+  ],
+  "clearanceDate": null,
+  "sheet": "JULY-26"
+ }
+]
