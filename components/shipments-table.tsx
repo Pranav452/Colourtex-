@@ -1,6 +1,6 @@
 "use client"
 
-import { useMemo, useState } from "react"
+import { Fragment, useMemo, useState } from "react"
 
 import { TagStamp } from "@/components/tag"
 import { STATUS_LABEL, type Status } from "@/lib/data"
@@ -10,6 +10,31 @@ import { cn } from "@/lib/utils"
 
 const STATUS_TABS: (Status | "all")[] = ["all", "flown", "booked"]
 const PAGE_SIZE = 15
+
+/** DD.MM.YYYY, matching how dates are written in the source sheet. */
+function sheetDate(iso: string | null): string {
+  if (!iso) return "—"
+  const [y, m, d] = iso.split("-")
+  return `${d}.${m}.${y}`
+}
+
+/** The FLIGHT DETAILS cell — verbatim if the upload stored it, else rebuilt from the parsed legs. */
+function flightDetailsText(s: ShipmentWithStatus): string {
+  if (s.flightDetailsRaw) return s.flightDetailsRaw
+  if (s.legs.length === 0) return "—"
+  return s.legs
+    .map((l) => `${l.carrier}:${l.flightNo}/${l.date ? sheetDate(l.date) : "—"}-${l.to}${l.status ? `-${l.status}` : ""}`)
+    .join("\n")
+}
+
+function DetailField({ label, value }: { label: string; value: React.ReactNode }) {
+  return (
+    <div className="min-w-0">
+      <div className="text-[8px] font-extrabold tracking-[0.22em] text-muted-foreground uppercase">{label}</div>
+      <div className="mt-0.5 text-[12.5px] font-medium break-words">{value ?? "—"}</div>
+    </div>
+  )
+}
 
 export function ShipmentsTable({
   shipments,
@@ -22,6 +47,9 @@ export function ShipmentsTable({
   const [status, setStatus] = useState<Status | "all">("all")
   const [dest, setDest] = useState("all")
   const [page, setPage] = useState(0)
+  const [expanded, setExpanded] = useState<string | null>(null)
+
+  const toggleExpand = (key: string) => setExpanded((cur) => (cur === key ? null : key))
 
   const dests = useMemo(
     () => [...new Set(shipments.map((s) => s.destination))].sort(),
@@ -117,11 +145,25 @@ export function ShipmentsTable({
           <tbody>
             {pageRows.map((s) => {
               const ap = DESTINATIONS[s.destination]
+              const key = s.awb + s.date
+              const isOpen = expanded === key
               return (
-                <tr key={s.awb + s.date} className="border-b border-border align-middle transition-colors hover:bg-secondary/60">
+                <Fragment key={key}>
+                <tr
+                  onClick={() => toggleExpand(key)}
+                  className={cn(
+                    "cursor-pointer border-b border-border align-middle transition-colors hover:bg-secondary/60",
+                    isOpen && "bg-secondary/60",
+                  )}
+                >
                   <td className="py-2.5 pr-3">
-                    <div className="font-mono text-[11.5px] font-bold">{s.awb}</div>
-                    <div className="text-[9.5px] tracking-[0.06em] text-muted-foreground uppercase">
+                    <div className="flex items-center gap-1.5">
+                      <span className={cn("inline-block text-[8px] text-thread transition-transform", isOpen && "rotate-90")}>
+                        ▶
+                      </span>
+                      <span className="font-mono text-[11.5px] font-bold">{s.awb}</span>
+                    </div>
+                    <div className="pl-4 text-[9.5px] tracking-[0.06em] text-muted-foreground uppercase">
                       {s.invoice ?? "—"}
                     </div>
                   </td>
@@ -150,6 +192,58 @@ export function ShipmentsTable({
                     <TagStamp status={s.status} />
                   </td>
                 </tr>
+                {isOpen && (
+                  <tr className="border-b-2 border-ink/50 bg-secondary/40">
+                    <td colSpan={9} className="px-4 py-5">
+                      <div className="grid gap-x-8 gap-y-4 sm:grid-cols-3 lg:grid-cols-5">
+                        <DetailField label="AWB No." value={<span className="font-mono">{s.awb}</span>} />
+                        <DetailField label="Date" value={sheetDate(s.date)} />
+                        <DetailField label="Sr No." value={s.sr} />
+                        <DetailField label="Sheet tab" value={s.sheet} />
+                        <DetailField
+                          label="Destination"
+                          value={ap ? `${s.destination} — ${ap.city}, ${ap.country} (${ap.iata})` : s.destination}
+                        />
+                        <DetailField label="Invoice No." value={s.invoice ?? "—"} />
+                        <DetailField label="Consignee" value={s.consignee} />
+                        <DetailField label="Packages" value={fmt(s.pkgs)} />
+                        <DetailField label="Chargeable wt." value={`${fmt(s.chargeableWt)} kg`} />
+                        <DetailField
+                          label="Carrier"
+                          value={s.legs[0] ? `${s.legs[0].carrier} · ${airlineName(s.legs[0].carrier)}` : "—"}
+                        />
+                        <DetailField label="Clearance date" value={sheetDate(s.clearanceDate)} />
+                        <DetailField label="Status" value={<TagStamp status={s.status} />} />
+                      </div>
+
+                      <div className="stitch mt-5 pt-4">
+                        <div className="text-[8px] font-extrabold tracking-[0.22em] text-muted-foreground uppercase">
+                          Flight details — as written in the sheet
+                        </div>
+                        <pre className="mt-2 font-mono text-[11.5px] leading-relaxed font-semibold whitespace-pre-wrap">
+{flightDetailsText(s)}
+                        </pre>
+                        {s.legs.length > 0 && (
+                          <div className="mt-3 flex flex-wrap gap-2">
+                            {s.legs.map((l, i) => (
+                              <span
+                                key={`${l.carrier}${l.flightNo}-${i}`}
+                                className={cn(
+                                  "border-2 px-2 py-1 text-[9px] font-extrabold tracking-[0.1em] uppercase",
+                                  l.status === "BKD" ? "border-thread text-thread" : "border-ink/40",
+                                )}
+                              >
+                                Leg {i + 1} · {l.carrier} {l.flightNo} · {l.date ? sheetDate(l.date) : "—"} → {l.to}
+                                {l.status ? ` · ${l.status}` : ""}
+                              </span>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    </td>
+                  </tr>
+                )}
+                </Fragment>
               )
             })}
             {pageRows.length === 0 && (

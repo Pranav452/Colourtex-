@@ -26,6 +26,8 @@ export interface Shipment {
   legs: FlightLeg[]
   clearanceDate: string | null
   sheet: string // source tab, e.g. "Sheet1" (2025) or "JUNE-26"
+  /** the FLIGHT DETAILS cell exactly as written in the sheet (all legs, raw) */
+  flightDetailsRaw?: string | null
 }
 
 export type Status = "flown" | "booked" | "planned"

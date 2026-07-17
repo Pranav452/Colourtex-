@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
+import { AnimatedThemeToggle } from "@/components/theme-toggle"
 import { logout } from "@/app/login/actions"
 import { getSession } from "@/lib/auth"
 import { fmtDate } from "@/lib/stats"
@@ -53,6 +54,7 @@ export async function SiteHeader() {
           )}
 
           <div className="flex items-center gap-3">
+            <AnimatedThemeToggle className="tag-shadow-sm border-2 border-ink bg-card text-ink hover:text-indigo-dye" />
             {session && dataset && (
               <span className="hidden -rotate-2 border-2 border-thread px-2 py-0.5 text-[9px] font-extrabold tracking-[0.16em] text-thread uppercase select-none md:inline-block">
                 Lot of {fmtDate(dataset.asOf)}
@@ -70,7 +72,7 @@ export async function SiteHeader() {
             ) : (
               <Link
                 href="/login"
-                className="tag-shadow-sm inline-block border-2 border-ink bg-indigo-dye px-4 py-2 text-[10px] font-extrabold tracking-[0.16em] text-white uppercase transition-colors hover:bg-ink"
+                className="tag-shadow-sm inline-block border-2 border-ink bg-indigo-dye px-4 py-2 text-[10px] font-extrabold tracking-[0.16em] text-primary-foreground uppercase transition-colors hover:bg-ink"
               >
                 Punch in
               </Link>

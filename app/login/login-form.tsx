@@ -53,7 +53,7 @@ export function LoginForm({ from }: { from?: string }) {
         <button
           type="submit"
           disabled={pending}
-          className="tag-shadow-sm mt-1 border-2 border-ink bg-indigo-dye px-6 py-3 text-[11px] font-extrabold tracking-[0.24em] text-white uppercase transition-colors hover:bg-ink disabled:opacity-60"
+          className="tag-shadow-sm mt-1 border-2 border-ink bg-indigo-dye px-6 py-3 text-[11px] font-extrabold tracking-[0.24em] text-primary-foreground uppercase transition-colors hover:bg-ink disabled:opacity-60"
         >
           {pending ? "Punching in…" : "Punch in →"}
         </button>
@@ -74,7 +74,7 @@ export function LoginForm({ from }: { from?: string }) {
           <button
             type="submit"
             disabled={reqPending}
-            className="border-2 border-thread px-4 py-2 text-[10px] font-extrabold tracking-[0.18em] text-thread uppercase transition-colors hover:bg-thread hover:text-white disabled:opacity-60"
+            className="border-2 border-thread px-4 py-2 text-[10px] font-extrabold tracking-[0.18em] text-thread uppercase transition-colors hover:bg-thread hover:text-primary-foreground disabled:opacity-60"
           >
             {reqPending ? "Sending…" : "Request access for this network"}
           </button>

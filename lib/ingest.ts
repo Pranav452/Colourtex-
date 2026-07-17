@@ -83,6 +83,47 @@ function filledCount(s: Shipment): number {
   ).length
 }
 
+/**
+ * Re-normalise rows after the uploader edits them in the preview grid:
+ * destinations re-canonicalised, legs re-parsed from the (possibly edited)
+ * flight-details text, numbers coerced. Returns fresh validation warnings.
+ */
+export function renormalize(rows: Shipment[]): { shipments: Shipment[]; warnings: string[] } {
+  const warnings: string[] = []
+  const shipments: Shipment[] = []
+  for (const r of rows) {
+    const awb = cellStr(r.awb)
+    if (!awb || awb.replace(/\D/g, "").length < 8) {
+      warnings.push(`Row dropped: "${awb || "—"}" is not a valid AWB number.`)
+      continue
+    }
+    const canon = canonDestination(cellStr(r.destination))
+    if (canon && !DESTINATIONS[canon]) {
+      warnings.push(`AWB ${awb}: destination "${canon}" still has no airport mapping — won't plot on the globe.`)
+    }
+    const raw = cellStr(String(r.flightDetailsRaw ?? ""))
+    const date = /^\d{4}-\d{2}-\d{2}$/.test(r.date) ? r.date : parseDate(r.date)
+    if (!date) {
+      warnings.push(`AWB ${awb}: date "${r.date}" is not parseable — row dropped.`)
+      continue
+    }
+    shipments.push({
+      ...r,
+      awb,
+      date,
+      destination: canon,
+      consignee: cellStr(r.consignee).toUpperCase(),
+      pkgs: Math.round(cellNum(r.pkgs)),
+      chargeableWt: cellNum(r.chargeableWt),
+      legs: raw ? parseLegs(raw) : r.legs,
+      clearanceDate: r.clearanceDate && /^\d{4}-\d{2}-\d{2}$/.test(r.clearanceDate) ? r.clearanceDate : parseDate(r.clearanceDate),
+      flightDetailsRaw: raw || null,
+    })
+  }
+  shipments.sort((a, b) => a.date.localeCompare(b.date) || a.sr - b.sr)
+  return { shipments, warnings }
+}
+
 export function parseWorkbook(buffer: Buffer | ArrayBuffer): IngestResult {
   const wb = XLSX.read(buffer, {
     type: buffer instanceof ArrayBuffer ? "array" : "buffer",
@@ -156,6 +197,8 @@ export function parseWorkbook(buffer: Buffer | ArrayBuffer): IngestResult {
         legs,
         clearanceDate: parseDate(row[9]),
         sheet: sheetName,
+        // keep the sheet's FLIGHT DETAILS text verbatim for the expanded row view
+        flightDetailsRaw: String(row[8] ?? "").trim() || null,
       })
     }
   }

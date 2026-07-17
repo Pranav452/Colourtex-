@@ -69,6 +69,43 @@
   --ring: var(--indigo-dye);
 }
 
+:root {
+  --weave: oklch(0.25 0.015 260 / 2.5%);
+  --panel-shadow: oklch(0.25 0.015 260 / 90%);
+  --stitch-color: oklch(0.72 0.015 85);
+}
+
+/* Night shift — same mill, lights off. Toggled via next-themes. */
+.dark {
+  color-scheme: dark;
+  --canvas: oklch(0.17 0.012 262);
+  --ink: oklch(0.9 0.008 85);
+  --indigo-dye: oklch(0.63 0.15 264);
+  --thread: oklch(0.68 0.17 38);
+  --background: var(--canvas);
+  --foreground: var(--ink);
+  --card: oklch(0.215 0.012 262);
+  --card-foreground: var(--ink);
+  --popover: oklch(0.215 0.012 262);
+  --popover-foreground: var(--ink);
+  --primary: var(--indigo-dye);
+  --primary-foreground: oklch(0.98 0 0);
+  --secondary: oklch(0.27 0.012 262);
+  --secondary-foreground: var(--ink);
+  --muted: oklch(0.27 0.012 262);
+  --muted-foreground: oklch(0.64 0.012 262);
+  --accent: oklch(0.27 0.012 262);
+  --accent-foreground: var(--ink);
+  --destructive: oklch(0.64 0.19 25);
+  --destructive-foreground: oklch(0.98 0 0);
+  --border: oklch(0.9 0.008 85 / 20%);
+  --input: oklch(0.9 0.008 85 / 30%);
+  --ring: var(--indigo-dye);
+  --weave: oklch(0.9 0.008 85 / 3%);
+  --panel-shadow: oklch(0 0 0 / 65%);
+  --stitch-color: oklch(0.42 0.012 262);
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -76,8 +113,8 @@
   body {
     @apply bg-background text-foreground antialiased;
     background-image:
-      repeating-linear-gradient(0deg, oklch(0.25 0.015 260 / 2.5%) 0 1px, transparent 1px 7px),
-      repeating-linear-gradient(90deg, oklch(0.25 0.015 260 / 2.5%) 0 1px, transparent 1px 7px);
+      repeating-linear-gradient(0deg, var(--weave) 0 1px, transparent 1px 7px),
+      repeating-linear-gradient(90deg, var(--weave) 0 1px, transparent 1px 7px);
   }
   ::selection {
     background: oklch(0.48 0.19 264 / 22%);
@@ -85,16 +122,16 @@
 }
 
 @layer utilities {
-  /* tag panel: white card, 2px ink border, hard offset shadow */
+  /* tag panel: card, 2px ink border, hard offset shadow */
   .tag-panel {
     background: var(--card);
     border: 2px solid var(--ink);
-    box-shadow: 5px 5px 0 oklch(0.25 0.015 260 / 90%);
+    box-shadow: 5px 5px 0 var(--panel-shadow);
   }
   .tag-shadow-sm {
-    box-shadow: 3px 3px 0 oklch(0.25 0.015 260 / 90%);
+    box-shadow: 3px 3px 0 var(--panel-shadow);
   }
   .stitch {
-    border-top: 2px dashed oklch(0.72 0.015 85);
+    border-top: 2px dashed var(--stitch-color);
   }
 }

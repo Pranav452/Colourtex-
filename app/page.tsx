@@ -39,7 +39,7 @@ export default function LandingPage() {
               <div className="flex flex-wrap items-center gap-3">
                 <Link
                   href="/login"
-                  className="tag-shadow-sm inline-block border-2 border-ink bg-indigo-dye px-7 py-3 text-[11px] font-extrabold tracking-[0.22em] text-white uppercase transition-colors hover:bg-ink"
+                  className="tag-shadow-sm inline-block border-2 border-ink bg-indigo-dye px-7 py-3 text-[11px] font-extrabold tracking-[0.22em] text-primary-foreground uppercase transition-colors hover:bg-ink"
                 >
                   Punch in →
                 </Link>

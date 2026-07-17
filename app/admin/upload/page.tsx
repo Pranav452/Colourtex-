@@ -37,7 +37,7 @@ export default async function UploadPage() {
           </p>
         </div>
 
-        <Card className="mb-4 flex-row items-center gap-4 rounded-2xl border-black/[0.06] bg-white p-5 shadow-xs">
+        <Card className="mb-4 flex-row items-center gap-4 rounded-2xl border-ink/[0.12] bg-card p-5 shadow-xs">
           <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-thread/30 bg-thread/[0.07]">
             <Database className="h-4 w-4 text-thread" />
           </div>
