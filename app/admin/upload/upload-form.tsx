@@ -187,7 +187,7 @@ export function UploadForm({ today }: { today: string }) {
                 </ol>
               )}
               {(state.ai?.explanations.length ?? 0) > 0 && (
-                <div className="flex max-h-72 flex-col gap-2 overflow-y-auto pr-1">
+                <div data-lenis-prevent className="flex max-h-72 flex-col gap-2 overflow-y-auto pr-1">
                   {state.ai!.explanations.map((e, i) => (
                     <div key={i} className="border-l-4 border-thread bg-thread/[0.05] px-3 py-2">
                       <div className="flex items-start gap-1.5 text-[11.5px] font-bold">

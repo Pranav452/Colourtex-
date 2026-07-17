@@ -92,7 +92,7 @@ export default async function DashboardPage({
 
           <TagPanel className="flex h-[440px] flex-col">
             <PanelHead left="Latest tickets" right="newest first" />
-            <div className="-mr-2 flex min-h-0 flex-1 flex-col overflow-y-auto pr-2">
+            <div data-lenis-prevent className="-mr-2 flex min-h-0 flex-1 flex-col overflow-y-auto pr-2">
               {stats.movements.slice(0, 20).map((s) => (
                 <div key={s.awb + s.date} className="flex shrink-0 items-center justify-between gap-3 border-b border-border py-2 last:border-0">
                   <div className="min-w-0">
@@ -118,7 +118,7 @@ export default async function DashboardPage({
 
           <TagPanel>
             <PanelHead left="Lanes by weight" right={`${t.countries} countries`} />
-            <div className="grid max-h-[420px] grid-cols-1 gap-x-8 overflow-y-auto pr-1 sm:grid-cols-2">
+            <div data-lenis-prevent className="grid max-h-[420px] grid-cols-1 gap-x-8 overflow-y-auto pr-1 sm:grid-cols-2">
               {stats.lanes.map((lane) => (
                 <div key={lane.destination} className="flex items-center gap-3 border-b border-border py-2">
                   <span className="w-9 shrink-0 font-mono text-[11px] font-extrabold text-indigo-dye">{lane.iata}</span>
